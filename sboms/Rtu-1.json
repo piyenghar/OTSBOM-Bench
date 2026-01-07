@@ -1,0 +1,198 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "RTU-1-Remote-Terminal-Unit-SBOM",
+  "documentNamespace": "http://example.org/spdx/rtu-1-remote-terminal-unit-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:25:00Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleVendor GmbH"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RTU1Firmware"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-RTU1Firmware",
+      "name": "RTU-1-Main-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+        }
+      ],
+      "summary": "Main firmware image for a compact RTU for telecontrol applications with support for IEC 60870, DNP3 and MODBUS TCP."
+    },
+    {
+      "SPDXID": "SPDXRef-RTOS",
+      "name": "RTU-1-Embedded-RTOS",
+      "versionInfo": "3.0.0",
+      "supplier": "Organization: ExampleRTOS Vendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Real-time operating system for low-power remote stations with sleep/communication modes and time-tagged event logging."
+    },
+    {
+      "SPDXID": "SPDXRef-IEC60870Stack",
+      "name": "RTU-1-IEC-60870-5-Telecontrol-Stack",
+      "versionInfo": "2.1.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Implementation of IEC 60870-5-101/104 telecontrol protocols for communication with the control center."
+    },
+    {
+      "SPDXID": "SPDXRef-DNP3Stack",
+      "name": "RTU-1-DNP3-Protocol-Stack",
+      "versionInfo": "1.4.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "DNP3 outstation protocol stack for use in power and utility automation systems."
+    },
+    {
+      "SPDXID": "SPDXRef-ModbusStack",
+      "name": "RTU-1-MODBUS-TCP-Stack",
+      "versionInfo": "1.2.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "MODBUS TCP communication stack for integration with field devices and local controllers."
+    },
+    {
+      "SPDXID": "SPDXRef-MQTTClient",
+      "name": "RTU-1-MQTT-Client",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "MQTT client for publishing telemetry to cloud or central brokers."
+    },
+    {
+      "SPDXID": "SPDXRef-GSM4GLTEStack",
+      "name": "RTU-1-GSM-4G-LTE-Communication-Stack",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Cellular communication stack providing GSM/4G/LTE connectivity for remote sites."
+    },
+    {
+      "SPDXID": "SPDXRef-TimeSync",
+      "name": "RTU-1-Time-Synchronization-Module",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "NTP/PTP-based time synchronization for accurate time-tagging of events and measurements."
+    },
+    {
+      "SPDXID": "SPDXRef-DataLogger",
+      "name": "RTU-1-Data-Logger-and-Event-Recorder",
+      "versionInfo": "1.3.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Data logging and event recording module with support for time-tagged records and storage on internal/SD memory."
+    },
+    {
+      "SPDXID": "SPDXRef-IOManager",
+      "name": "RTU-1-IO-Manager",
+      "versionInfo": "1.2.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Module for scanning local and remote I/O, scaling measured values and generating alarms."
+    },
+    {
+      "SPDXID": "SPDXRef-Bootloader",
+      "name": "RTU-1-Bootloader-and-Firmware-Update",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Bootloader and firmware update component, including remote firmware update over IP links."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RTU1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-RTOS"
+    },
+    {
+      "spdxElementId": "SPDXRef-RTU1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-IEC60870Stack"
+    },
+    {
+      "spdxElementId": "SPDXRef-RTU1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-DNP3Stack"
+    },
+    {
+      "spdxElementId": "SPDXRef-RTU1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-ModbusStack"
+    },
+    {
+      "spdxElementId": "SPDXRef-RTU1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-MQTTClient"
+    },
+    {
+      "spdxElementId": "SPDXRef-RTU1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-GSM4GLTEStack"
+    },
+    {
+      "spdxElementId": "SPDXRef-RTU1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-TimeSync"
+    },
+    {
+      "spdxElementId": "SPDXRef-RTU1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-DataLogger"
+    },
+    {
+      "spdxElementId": "SPDXRef-RTU1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-IOManager"
+    },
+    {
+      "spdxElementId": "SPDXRef-RTU1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Bootloader"
+    }
+  ]
+}

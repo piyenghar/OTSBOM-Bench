@@ -1,0 +1,90 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Unidirectional-Gateway-Data-Diode-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/unidirectional-gateway-data-diode-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:51:30Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleDataDiodeVendor"
+    ]
+  },
+  "documentDescribes": ["SPDXRef-UDGMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-UDGMain",
+      "name": "Unidirectional-Gateway-Data-Diode-1-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleDataDiodeVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Firmware for a unidirectional gateway consisting of TX and RX appliances enforcing one-way data transfer."
+    },
+    {
+      "SPDXID": "SPDXRef-UDGTXOS",
+      "name": "Unidirectional-Gateway-Data-Diode-1-TX-OS",
+      "versionInfo": "2.5.0",
+      "supplier": "Organization: ExampleOSVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Embedded OS on the transmitter appliance handling data capture from secure OT networks."
+    },
+    {
+      "SPDXID": "SPDXRef-UDGRXOS",
+      "name": "Unidirectional-Gateway-Data-Diode-1-RX-OS",
+      "versionInfo": "2.5.0",
+      "supplier": "Organization: ExampleOSVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Embedded OS on the receiver appliance handling data delivery to IT/enterprise networks."
+    },
+    {
+      "SPDXID": "SPDXRef-UDGReplicate",
+      "name": "Unidirectional-Gateway-Data-Diode-1-Replication-Middleware",
+      "versionInfo": "3.0.0",
+      "supplier": "Organization: ExampleDataDiodeVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Middleware that gathers data from OT servers (historians, OPC, databases, syslog) and republishes replicas on the IT side."
+    },
+    {
+      "SPDXID": "SPDXRef-UDGProtoAdapt",
+      "name": "Unidirectional-Gateway-Data-Diode-1-Protocol-Adaptors",
+      "versionInfo": "2.1.0",
+      "supplier": "Organization: ExampleDataDiodeVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Adapters for OT protocols and file/syslog transfer to support common OT-to-IT data flows."
+    },
+    {
+      "SPDXID": "SPDXRef-UDGSecurity",
+      "name": "Unidirectional-Gateway-Data-Diode-1-Security-and-Mgmt",
+      "versionInfo": "1.8.0",
+      "supplier": "Organization: ExampleDataDiodeVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Management interface and security controls for configuring sources, destinations, and monitoring one-way links."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId":"SPDXRef-UDGMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-UDGTXOS"},
+    {"spdxElementId":"SPDXRef-UDGMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-UDGRXOS"},
+    {"spdxElementId":"SPDXRef-UDGMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-UDGReplicate"},
+    {"spdxElementId":"SPDXRef-UDGMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-UDGProtoAdapt"},
+    {"spdxElementId":"SPDXRef-UDGMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-UDGSecurity"}
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "DAQ-Unit-Industrial-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/daq-unit-industrial-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:19:30Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleDAQVendor d.o.o."
+    ]
+  },
+  "documentDescribes": ["SPDXRef-DAQMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-DAQMain",
+      "name": "DAQ-Unit-Industrial-1-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleDAQVendor d.o.o.",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Firmware for a modular industrial DAQ chassis with high-resolution signal conditioning and EtherCAT/Ethernet connectivity."
+    },
+    {
+      "SPDXID": "SPDXRef-DAQRTOS",
+      "name": "DAQ-Unit-Industrial-1-Real-Time-OS",
+      "versionInfo": "3.2.0",
+      "supplier": "Organization: ExampleRTOSVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Real-time OS providing deterministic acquisition loops and fieldbus handling."
+    },
+    {
+      "SPDXID": "SPDXRef-DAQSignalCond",
+      "name": "DAQ-Unit-Industrial-1-Signal-Conditioning-Stack",
+      "versionInfo": "2.4.0",
+      "supplier": "Organization: ExampleDAQVendor d.o.o.",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Signal conditioning and ADC management for voltage, current, strain, vibration, sound, temperature and other sensors at up to tens of kHz per channel."
+    },
+    {
+      "SPDXID": "SPDXRef-DAQEtherCAT",
+      "name": "DAQ-Unit-Industrial-1-EtherCAT-Interface",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleDAQVendor d.o.o.",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "EtherCAT slave/master communication stack for distributed DAQ and integration with control systems."
+    },
+    {
+      "SPDXID": "SPDXRef-DAQDataEngine",
+      "name": "DAQ-Unit-Industrial-1-Data-Streaming-and-Buffering",
+      "versionInfo": "1.7.0",
+      "supplier": "Organization: ExampleDAQVendor d.o.o.",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Local buffering, streaming and time-synchronization engine for high-channel-count condition monitoring applications."
+    },
+    {
+      "SPDXID": "SPDXRef-DAQEmbeddedRT",
+      "name": "DAQ-Unit-Industrial-1-Embedded-RT-Application",
+      "versionInfo": "1.5.0",
+      "supplier": "Organization: ExampleDAQVendor d.o.o.",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Embedded runtime performing local calculations, alarms and simple control loops for machine condition monitoring."
+    },
+    {
+      "SPDXID": "SPDXRef-DAQHostSW",
+      "name": "DAQ-Unit-Industrial-1-Host-Software-Agent",
+      "versionInfo": "1.4.0",
+      "supplier": "Organization: ExampleDAQVendor d.o.o.",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Agent interface to PC-based DAQ/analysis software, including configuration, triggers, and data transfer protocols."
+    },
+    {
+      "SPDXID": "SPDXRef-DAQSecurity",
+      "name": "DAQ-Unit-Industrial-1-Security-and-Access-Control",
+      "versionInfo": "1.2.0",
+      "supplier": "Organization: ExampleDAQVendor d.o.o.",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Authentication, role-based access and secure update mechanisms for the DAQ unit."
+    },
+    {
+      "SPDXID": "SPDXRef-DAQLogging",
+      "name": "DAQ-Unit-Industrial-1-Health-and-Event-Logging",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleDAQVendor d.o.o.",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Hardware health monitoring, fault logs and status reporting for the DAQ chassis and modules."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId": "SPDXRef-DAQMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DAQRTOS"},
+    {"spdxElementId": "SPDXRef-DAQMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DAQSignalCond"},
+    {"spdxElementId": "SPDXRef-DAQMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DAQEtherCAT"},
+    {"spdxElementId": "SPDXRef-DAQMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DAQDataEngine"},
+    {"spdxElementId": "SPDXRef-DAQMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DAQEmbeddedRT"},
+    {"spdxElementId": "SPDXRef-DAQMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DAQHostSW"},
+    {"spdxElementId": "SPDXRef-DAQMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DAQSecurity"},
+    {"spdxElementId": "SPDXRef-DAQMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DAQLogging"}
+  ]
+}

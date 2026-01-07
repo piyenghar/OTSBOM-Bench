@@ -1,0 +1,102 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "ICS-Firewall-DPI-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/ics-firewall-dpi-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:51:10Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleICSFirewallVendor"
+    ]
+  },
+  "documentDescribes": ["SPDXRef-ICSMMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-ICSMMain",
+      "name": "ICS-Firewall-DPI-1-Main-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleICSFirewallVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Firmware for a deep-packet-inspection industrial firewall with IPS/IDS for OT networks."
+    },
+    {
+      "SPDXID": "SPDXRef-ICSMOS",
+      "name": "ICS-Firewall-DPI-1-OS-and-Virtualization",
+      "versionInfo": "4.0.0",
+      "supplier": "Organization: ExampleOSVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Security-hardened OS, potentially with hypervisor/container layers for security services."
+    },
+    {
+      "SPDXID": "SPDXRef-ICSMDPI",
+      "name": "ICS-Firewall-DPI-1-DPI-Engine",
+      "versionInfo": "3.0.0",
+      "supplier": "Organization: ExampleICSFirewallVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Deep packet inspection engine able to parse and enforce policies on ICS protocols like Modbus, OPC UA, EtherNet/IP, PROFINET and others."
+    },
+    {
+      "SPDXID": "SPDXRef-ICSMIPS",
+      "name": "ICS-Firewall-DPI-1-IPS-IDS-Module",
+      "versionInfo": "2.6.0",
+      "supplier": "Organization: ExampleICSFirewallVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Industrial-grade intrusion detection and prevention with signatures and anomaly detection for ICS traffic."
+    },
+    {
+      "SPDXID": "SPDXRef-ICSMPolicy",
+      "name": "ICS-Firewall-DPI-1-Security-Policy-and-Assets",
+      "versionInfo": "2.1.0",
+      "supplier": "Organization: ExampleICSFirewallVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Policy engine, asset inventory and rule sets mapping ICS assets, zones and conduits to firewall and DPI rules."
+    },
+    {
+      "SPDXID": "SPDXRef-ICSMMgmt",
+      "name": "ICS-Firewall-DPI-1-Management-and-Orchestration",
+      "versionInfo": "1.8.0",
+      "supplier": "Organization: ExampleICSFirewallVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Centralized management, monitoring, and update service for multiple ICS firewalls."
+    },
+    {
+      "SPDXID": "SPDXRef-ICSMSecurity",
+      "name": "ICS-Firewall-DPI-1-Platform-Security-Services",
+      "versionInfo": "2.2.0",
+      "supplier": "Organization: ExampleICSFirewallVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Crypto, certificate management, secure boot, and integrity checking for the firewall platform."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId":"SPDXRef-ICSMMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-ICSMOS"},
+    {"spdxElementId":"SPDXRef-ICSMMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-ICSMDPI"},
+    {"spdxElementId":"SPDXRef-ICSMMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-ICSMIPS"},
+    {"spdxElementId":"SPDXRef-ICSMMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-ICSMPolicy"},
+    {"spdxElementId":"SPDXRef-ICSMMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-ICSMMgmt"},
+    {"spdxElementId":"SPDXRef-ICSMMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-ICSMSecurity"}
+  ]
+}

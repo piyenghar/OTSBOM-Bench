@@ -1,0 +1,102 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Secure-Edge-Platform-OT-IT-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/secure-edge-platform-ot-it-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:51:50Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleSecureEdgeVendor"
+    ]
+  },
+  "documentDescribes": ["SPDXRef-SEMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-SEMain",
+      "name": "Secure-Edge-Platform-OT-IT-1-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleSecureEdgeVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Firmware for a secure edge platform providing firewalling, protocol conversion and containerized edge applications."
+    },
+    {
+      "SPDXID": "SPDXRef-SEOS",
+      "name": "Secure-Edge-Platform-OT-IT-1-Host-OS",
+      "versionInfo": "5.1.0",
+      "supplier": "Organization: ExampleOSVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Hardened Linux with security-by-default configuration and long-term industrial support."
+    },
+    {
+      "SPDXID": "SPDXRef-SEContainer",
+      "name": "Secure-Edge-Platform-OT-IT-1-Container-Runtime",
+      "versionInfo": "2.3.0",
+      "supplier": "Organization: ExampleSecureEdgeVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Hardened container runtime for deploying customer and partner applications at the edge."
+    },
+    {
+      "SPDXID": "SPDXRef-SEFirewall",
+      "name": "Secure-Edge-Platform-OT-IT-1-Firewall-and-Segmentation",
+      "versionInfo": "3.0.0",
+      "supplier": "Organization: ExampleSecureEdgeVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Stealth-mode firewall, IP firewall and network segmentation between OT zones and IT/cloud."
+    },
+    {
+      "SPDXID": "SPDXRef-SEProtoConv",
+      "name": "Secure-Edge-Platform-OT-IT-1-Protocol-Conversion-Services",
+      "versionInfo": "2.1.0",
+      "supplier": "Organization: ExampleSecureEdgeVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Protocol adapters for legacy OT and secure IT/cloud protocols, exposed via APIs to containers."
+    },
+    {
+      "SPDXID": "SPDXRef-SECrypto",
+      "name": "Secure-Edge-Platform-OT-IT-1-Crypto-and-Trust-Anchor",
+      "versionInfo": "2.4.0",
+      "supplier": "Organization: ExampleSecureEdgeVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Integration with a dedicated secure element/TPM for key storage, TLS, VPN and signing operations."
+    },
+    {
+      "SPDXID": "SPDXRef-SEMgmt",
+      "name": "Secure-Edge-Platform-OT-IT-1-Central-Management-Client",
+      "versionInfo": "1.7.0",
+      "supplier": "Organization: ExampleSecureEdgeVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Client for Kubernetes-based central management to configure network, firewall and applications."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId":"SPDXRef-SEMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SEOS"},
+    {"spdxElementId":"SPDXRef-SEMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SEContainer"},
+    {"spdxElementId":"SPDXRef-SEMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SEFirewall"},
+    {"spdxElementId":"SPDXRef-SEMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SEProtoConv"},
+    {"spdxElementId":"SPDXRef-SEMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SECrypto"},
+    {"spdxElementId":"SPDXRef-SEMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SEMgmt"}
+  ]
+}

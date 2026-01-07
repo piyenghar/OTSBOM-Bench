@@ -1,0 +1,122 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Drive-Single-Axis-1-Variable-Speed-Drive-SBOM",
+  "documentNamespace": "http://example.org/spdx/drive-single-axis-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T14:48:30Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleVendor GmbH"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-DriveSingleMain"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-DriveSingleMain",
+      "name": "Drive-Single-Axis-1-Main-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+        }
+      ],
+      "summary": "Main firmware for a compact single-axis variable-speed/servo drive with industrial Ethernet interfaces."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveSingleRTOS",
+      "name": "Drive-Single-Axis-1-Embedded-RTOS",
+      "versionInfo": "3.0.0",
+      "supplier": "Organization: ExampleRTOS Vendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Real-time operating system for single-axis speed and position control."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveSingleEtherCAT",
+      "name": "Drive-Single-Axis-1-EtherCAT-Fieldbus-Stack",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "EtherCAT slave stack including support for safe fieldbus profiles where available."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveSingleProfinet",
+      "name": "Drive-Single-Axis-1-PROFINET-Fieldbus-Stack",
+      "versionInfo": "1.8.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "PROFINET / PROFIsafe communication stack for PLC connectivity."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveSingleControl",
+      "name": "Drive-Single-Axis-1-Speed-and-Position-Control",
+      "versionInfo": "1.4.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Speed, torque and simple positioning control algorithms for the axis."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveSingleSTO",
+      "name": "Drive-Single-Axis-1-Safe-Torque-Off-Module",
+      "versionInfo": "1.2.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Safe Torque Off functionality with safe inputs and optional safe fieldbus control."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveSingleDiag",
+      "name": "Drive-Single-Axis-1-Diagnostics-and-Events",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Diagnostics, fault logging and parameter access for the drive."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveSingleBootloader",
+      "name": "Drive-Single-Axis-1-Bootloader-and-Firmware-Update",
+      "versionInfo": "1.0.1",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Boot and firmware update component, including fieldbus-based parameterization support."
+    }
+  ],
+  "relationships": [
+    { "spdxElementId": "SPDXRef-DriveSingleMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveSingleRTOS" },
+    { "spdxElementId": "SPDXRef-DriveSingleMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveSingleEtherCAT" },
+    { "spdxElementId": "SPDXRef-DriveSingleMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveSingleProfinet" },
+    { "spdxElementId": "SPDXRef-DriveSingleMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveSingleControl" },
+    { "spdxElementId": "SPDXRef-DriveSingleMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveSingleSTO" },
+    { "spdxElementId": "SPDXRef-DriveSingleMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveSingleDiag" },
+    { "spdxElementId": "SPDXRef-DriveSingleMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveSingleBootloader" }
+  ]
+}

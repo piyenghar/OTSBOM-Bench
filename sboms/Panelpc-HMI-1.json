@@ -1,0 +1,122 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "PanelPC-HMI-1-PC-Class-HMI-SBOM",
+  "documentNamespace": "http://example.org/spdx/panelpc-hmi-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T14:44:00Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleVendor GmbH"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-PanelPCHMIMain"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-PanelPCHMIMain",
+      "name": "PanelPC-HMI-1-HMI-Workstation-Software",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "summary": "HMI/SCADA runtime running on an industrial panel PC with local visualization and control."
+    },
+    {
+      "SPDXID": "SPDXRef-PanelPCHMIVisualization",
+      "name": "PanelPC-HMI-1-Visualization-Runtime",
+      "versionInfo": "2.2.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Visualization engine (desktop and web clients) for process graphics, trends and alarm views."
+    },
+    {
+      "SPDXID": "SPDXRef-PanelPCHMIComm",
+      "name": "PanelPC-HMI-1-Device-Communication-Module",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "OPC UA client and native PLC drivers for connecting to controllers and field devices."
+    },
+    {
+      "SPDXID": "SPDXRef-PanelPCHMIWebServer",
+      "name": "PanelPC-HMI-1-Web-Server",
+      "versionInfo": "1.5.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Built-in web server to serve HMI sessions to browser-based or remote clients."
+    },
+    {
+      "SPDXID": "SPDXRef-PanelPCHMIAlarming",
+      "name": "PanelPC-HMI-1-Alarming-Module",
+      "versionInfo": "1.3.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Local alarm generation, display and basic notification for the HMI station."
+    },
+    {
+      "SPDXID": "SPDXRef-PanelPCHMIStoreForward",
+      "name": "PanelPC-HMI-1-Store-And-Forward-Buffer",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Short-term buffering of historical data during network interruptions to central servers."
+    },
+    {
+      "SPDXID": "SPDXRef-PanelPCHMIScripting",
+      "name": "PanelPC-HMI-1-Scripting-Engine",
+      "versionInfo": "1.4.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Client- and gateway-level scripting for custom logic and edge computations."
+    },
+    {
+      "SPDXID": "SPDXRef-PanelPCHMISecurity",
+      "name": "PanelPC-HMI-1-UserAuth-and-Security",
+      "versionInfo": "1.2.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "User authentication, roles, and secure session management for the HMI clients."
+    }
+  ],
+  "relationships": [
+    { "spdxElementId": "SPDXRef-PanelPCHMIMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-PanelPCHMIVisualization" },
+    { "spdxElementId": "SPDXRef-PanelPCHMIMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-PanelPCHMIComm" },
+    { "spdxElementId": "SPDXRef-PanelPCHMIMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-PanelPCHMIWebServer" },
+    { "spdxElementId": "SPDXRef-PanelPCHMIMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-PanelPCHMIAlarming" },
+    { "spdxElementId": "SPDXRef-PanelPCHMIMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-PanelPCHMIStoreForward" },
+    { "spdxElementId": "SPDXRef-PanelPCHMIMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-PanelPCHMIScripting" },
+    { "spdxElementId": "SPDXRef-PanelPCHMIMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-PanelPCHMISecurity" }
+  ]
+}

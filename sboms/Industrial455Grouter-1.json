@@ -1,0 +1,126 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Industrial-Router-Cellular-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/industrial-router-cellular-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:19:10Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleCellularVendor AG"
+    ]
+  },
+  "documentDescribes": ["SPDXRef-RouterCellMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-RouterCellMain",
+      "name": "Industrial-Router-Cellular-1-Main-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleCellularVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Firmware for a 4G/5G industrial cellular router with Ethernet, serial, Wi-Fi and industrial IoT features."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterCellOS",
+      "name": "Industrial-Router-Cellular-1-Embedded-Linux",
+      "versionInfo": "5.0.0",
+      "supplier": "Organization: ExampleOSVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Linux-based OS with SDK/API for Python/C++ application development on the router."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterCellVPN",
+      "name": "Industrial-Router-Cellular-1-VPN-Subsystem",
+      "versionInfo": "3.0.0",
+      "supplier": "Organization: ExampleCellularVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "VPN subsystem supporting IPsec, OpenVPN, L2TP, PPTP, GRE, DMVPN and similar tunneling protocols."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterCellWAN",
+      "name": "Industrial-Router-Cellular-1-Cellular-and-WAN-Manager",
+      "versionInfo": "2.2.0",
+      "supplier": "Organization: ExampleCellularVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Manager for 4G/5G modems, dual SIM, APN profiles, GPS/Beidou, failover between wired WAN and cellular."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterCellPLCProto",
+      "name": "Industrial-Router-Cellular-1-Industrial-Protocol-Stacks",
+      "versionInfo": "2.1.0",
+      "supplier": "Organization: ExampleCellularVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "MQTT, Modbus TCP/RTU, OPC UA, and optional IEC 101/104, DNP3, power-industry and PLC-specific protocol support."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterCellCloud",
+      "name": "Industrial-Router-Cellular-1-Cloud-Connectors",
+      "versionInfo": "1.6.0",
+      "supplier": "Organization: ExampleCellularVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Connectors for Azure, AWS IoT and other cloud services using MQTT, HTTPS and custom APIs."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterCellRouting",
+      "name": "Industrial-Router-Cellular-1-Routing-Firewall-QoS",
+      "versionInfo": "3.3.0",
+      "supplier": "Organization: ExampleCellularVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Routing, NAT, firewall, QoS, link-failover and load-balancing across wired and cellular interfaces."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterCellMgmt",
+      "name": "Industrial-Router-Cellular-1-Management-and-FOTA",
+      "versionInfo": "1.5.0",
+      "supplier": "Organization: ExampleCellularVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Web UI, CLI, remote device management and firmware-over-the-air update services."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterCellSecurity",
+      "name": "Industrial-Router-Cellular-1-Security-Subsystem",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleCellularVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Crypto engine, certificate/key management, firewall rulesets and user/RBAC management for the router."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId": "SPDXRef-RouterCellMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterCellOS"},
+    {"spdxElementId": "SPDXRef-RouterCellMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterCellVPN"},
+    {"spdxElementId": "SPDXRef-RouterCellMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterCellWAN"},
+    {"spdxElementId": "SPDXRef-RouterCellMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterCellPLCProto"},
+    {"spdxElementId": "SPDXRef-RouterCellMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterCellCloud"},
+    {"spdxElementId": "SPDXRef-RouterCellMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterCellRouting"},
+    {"spdxElementId": "SPDXRef-RouterCellMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterCellMgmt"},
+    {"spdxElementId": "SPDXRef-RouterCellMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterCellSecurity"}
+  ]
+}

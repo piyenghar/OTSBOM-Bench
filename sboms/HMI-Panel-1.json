@@ -1,0 +1,122 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "HMI-Panel-1-Compact-Touch-SBOM",
+  "documentNamespace": "http://example.org/spdx/hmi-panel-1-compact-touch-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T14:42:30Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleVendor GmbH"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-HMIPanelFirmware"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-HMIPanelFirmware",
+      "name": "HMI-Panel-1-Main-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+        }
+      ],
+      "summary": "Main firmware image for a compact touch HMI panel for machine-level visualization."
+    },
+    {
+      "SPDXID": "SPDXRef-HMI_RT",
+      "name": "HMI-Panel-1-Visualization-Runtime",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Runtime engine that executes HMI projects with screens, alarms and trends."
+    },
+    {
+      "SPDXID": "SPDXRef-HMICommStack",
+      "name": "HMI-Panel-1-PLC-Communication-Stack",
+      "versionInfo": "1.5.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Communication stack for S7, Modbus, and other PLC protocols over Ethernet."
+    },
+    {
+      "SPDXID": "SPDXRef-HMIWebServer",
+      "name": "HMI-Panel-1-Remote-Access-Web-Server",
+      "versionInfo": "1.3.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Embedded web server enabling remote viewing and control of the HMI screen."
+    },
+    {
+      "SPDXID": "SPDXRef-HMIAlarm",
+      "name": "HMI-Panel-1-Alarm-Handling-Module",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Module handling alarm display, acknowledgement and basic event logging."
+    },
+    {
+      "SPDXID": "SPDXRef-HMIRecipe",
+      "name": "HMI-Panel-1-Recipe-and-Data-Logging-Module",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Recipe management and simple data logging to internal or removable storage."
+    },
+    {
+      "SPDXID": "SPDXRef-HMISecurity",
+      "name": "HMI-Panel-1-User-Management-and-Security",
+      "versionInfo": "1.2.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "User and password management, access levels and secure remote access configuration."
+    },
+    {
+      "SPDXID": "SPDXRef-HMIBootloader",
+      "name": "HMI-Panel-1-Bootloader-and-Update-Component",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Bootloader and firmware update mechanism for loading new runtime versions and HMI projects."
+    }
+  ],
+  "relationships": [
+    { "spdxElementId": "SPDXRef-HMIPanelFirmware", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-HMI_RT" },
+    { "spdxElementId": "SPDXRef-HMIPanelFirmware", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-HMICommStack" },
+    { "spdxElementId": "SPDXRef-HMIPanelFirmware", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-HMIWebServer" },
+    { "spdxElementId": "SPDXRef-HMIPanelFirmware", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-HMIAlarm" },
+    { "spdxElementId": "SPDXRef-HMIPanelFirmware", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-HMIRecipe" },
+    { "spdxElementId": "SPDXRef-HMIPanelFirmware", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-HMISecurity" },
+    { "spdxElementId": "SPDXRef-HMIPanelFirmware", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-HMIBootloader" }
+  ]
+}

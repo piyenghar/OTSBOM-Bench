@@ -1,0 +1,128 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Safety-Drive-1-Integrated-Safety-Drive-SBOM",
+  "documentNamespace": "http://example.org/spdx/safety-drive-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T14:56:30Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleVendor GmbH"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-SafetyDriveMain"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-SafetyDriveMain",
+      "name": "Safety-Drive-1-Main-Drive-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Servo/drive firmware with integrated functional safety for motion applications."
+    },
+    {
+      "SPDXID": "SPDXRef-SafetyDriveRTOS",
+      "name": "Safety-Drive-1-Drive-RTOS",
+      "versionInfo": "3.1.0",
+      "supplier": "Organization: ExampleRTOS Vendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Real-time operating system for drive control and safety monitoring tasks."
+    },
+    {
+      "SPDXID": "SPDXRef-SafetyDriveControl",
+      "name": "Safety-Drive-1-Speed-and-Torque-Control",
+      "versionInfo": "2.2.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Drive control library implementing speed, torque and position control (e.g., FOC) for one or more axes."
+    },
+    {
+      "SPDXID": "SPDXRef-SafetyDriveFieldbus",
+      "name": "Safety-Drive-1-Fieldbus-Communication-Stack",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Industrial Ethernet/fieldbus stack (e.g., EtherCAT, PROFINET, EtherNet/IP) for cyclic control, diagnostics and parameter access."
+    },
+    {
+      "SPDXID": "SPDXRef-SafetyDriveSafeComm",
+      "name": "Safety-Drive-1-Safe-Fieldbus-Extension",
+      "versionInfo": "1.5.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Safe communication extension (e.g., PROFIsafe / FailSafe over EtherCAT) for transferring safety-related commands and feedback."
+    },
+    {
+      "SPDXID": "SPDXRef-SafetyFunctions",
+      "name": "Safety-Drive-1-Functional-Safety-Module",
+      "versionInfo": "2.4.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Safety module implementing IEC 61800-5-2 motion safety functions such as STO, SS1, SS2, SOS, SLS, SDI, SLP and related monitoring."
+    },
+    {
+      "SPDXID": "SPDXRef-SafetyMonitoring",
+      "name": "Safety-Drive-1-Axis-Monitoring-and-Logic",
+      "versionInfo": "1.3.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Axis monitoring and safety logic for safe speed, position, standstill and range supervision, with configurable safety I/O."
+    },
+    {
+      "SPDXID": "SPDXRef-SafetyDriveDiag",
+      "name": "Safety-Drive-1-Diagnostics-and-Safety-Logging",
+      "versionInfo": "1.2.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Diagnostics, error logging and safety-related event recording for the drive and safety module."
+    },
+    {
+      "SPDXID": "SPDXRef-SafetyDriveBoot",
+      "name": "Safety-Drive-1-Bootloader-and-Update-Manager",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Bootloader and firmware update component with measures for safe and secure update of standard and safety firmware."
+    }
+  ],
+  "relationships": [
+    { "spdxElementId": "SPDXRef-SafetyDriveMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-SafetyDriveRTOS" },
+    { "spdxElementId": "SPDXRef-SafetyDriveMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-SafetyDriveControl" },
+    { "spdxElementId": "SPDXRef-SafetyDriveMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-SafetyDriveFieldbus" },
+    { "spdxElementId": "SPDXRef-SafetyDriveMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-SafetyDriveSafeComm" },
+    { "spdxElementId": "SPDXRef-SafetyDriveMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-SafetyFunctions" },
+    { "spdxElementId": "SPDXRef-SafetyDriveMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-SafetyMonitoring" },
+    { "spdxElementId": "SPDXRef-SafetyDriveMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-SafetyDriveDiag" },
+    { "spdxElementId": "SPDXRef-SafetyDriveMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-SafetyDriveBoot" }
+  ]
+}

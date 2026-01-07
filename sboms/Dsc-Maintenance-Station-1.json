@@ -1,0 +1,122 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "DCS-Eng-Station-1-Engineering-Maintenance-SBOM",
+  "documentNamespace": "http://example.org/spdx/dcs-eng-station-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T14:41:30Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleVendor GmbH"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-DCSEngStationMain"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-DCSEngStationMain",
+      "name": "DCS-Eng-Station-1-Engineering-Environment",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2222222222222222222222222222222222222222222222222222222222222222"
+        }
+      ],
+      "summary": "Engineering and maintenance environment for configuration, diagnostics and lifecycle management of a DCS."
+    },
+    {
+      "SPDXID": "SPDXRef-ControlConfigTool",
+      "name": "DCS-Eng-Station-1-Control-Configuration-Tool",
+      "versionInfo": "3.5.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Tool for configuring control strategies, function block diagrams, sequences and batch recipes."
+    },
+    {
+      "SPDXID": "SPDXRef-HMIEngineering",
+      "name": "DCS-Eng-Station-1-HMI-Engineering-Tool",
+      "versionInfo": "2.4.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Graphics editor for creating and maintaining operator displays, trends and alarm views."
+    },
+    {
+      "SPDXID": "SPDXRef-IOConfig",
+      "name": "DCS-Eng-Station-1-IO-Configuration-Module",
+      "versionInfo": "2.1.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Configuration module for I/O modules, fieldbuses, network I/O and software marshalling."
+    },
+    {
+      "SPDXID": "SPDXRef-ChangeMgmt",
+      "name": "DCS-Eng-Station-1-Change-Management-and-Versioning",
+      "versionInfo": "1.3.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Module handling audit trails, version control and modification packages for configuration changes."
+    },
+    {
+      "SPDXID": "SPDXRef-OfflineSimulation",
+      "name": "DCS-Eng-Station-1-Offline-Simulation-Module",
+      "versionInfo": "1.2.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Offline simulation and testing environment for control applications before download to controllers."
+    },
+    {
+      "SPDXID": "SPDXRef-DeviceMgmtClient",
+      "name": "DCS-Eng-Station-1-Device-Management-Client",
+      "versionInfo": "1.4.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Client for asset management and diagnostics of field devices via integration with asset management servers."
+    },
+    {
+      "SPDXID": "SPDXRef-DCSSecurityClient",
+      "name": "DCS-Eng-Station-1-Security-and-User-Management-Client",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Client for configuring user roles, access control and security policies across the DCS."
+    }
+  ],
+  "relationships": [
+    { "spdxElementId": "SPDXRef-DCSEngStationMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-ControlConfigTool" },
+    { "spdxElementId": "SPDXRef-DCSEngStationMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-HMIEngineering" },
+    { "spdxElementId": "SPDXRef-DCSEngStationMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-IOConfig" },
+    { "spdxElementId": "SPDXRef-DCSEngStationMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-ChangeMgmt" },
+    { "spdxElementId": "SPDXRef-DCSEngStationMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-OfflineSimulation" },
+    { "spdxElementId": "SPDXRef-DCSEngStationMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DeviceMgmtClient" },
+    { "spdxElementId": "SPDXRef-DCSEngStationMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DCSSecurityClient" }
+  ]
+}

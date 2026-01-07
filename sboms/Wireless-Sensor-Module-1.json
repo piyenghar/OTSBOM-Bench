@@ -1,0 +1,66 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Wireless-Remote-IO-Island-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/wireless-remote-io-island-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:54:50Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleRemoteIOVendor"
+    ]
+  },
+  "documentDescribes": ["SPDXRef-WIOMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-WIOMain",
+      "name": "Wireless-Remote-IO-Island-1-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleRemoteIOVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Firmware for a distributed wireless I/O node providing analog and digital channels for remote equipment."
+    },
+    {
+      "SPDXID": "SPDXRef-WIOIOMgr",
+      "name": "Wireless-Remote-IO-Island-1-I-O-Manager",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleRemoteIOVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Abstraction and scaling of analog and digital I/O channels, including configuration of ranges and debounce/filtering."
+    },
+    {
+      "SPDXID": "SPDXRef-WIORadio",
+      "name": "Wireless-Remote-IO-Island-1-Wireless-Communication-Stack",
+      "versionInfo": "2.1.0",
+      "supplier": "Organization: ExampleRemoteIOVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Low-power or industrial wireless protocol stack for bridging to a gateway or PLC (e.g., sub-GHz, 4G, mesh)."
+    },
+    {
+      "SPDXID": "SPDXRef-WIOProto",
+      "name": "Wireless-Remote-IO-Island-1-Protocol-Bridge",
+      "versionInfo": "1.5.0",
+      "supplier": "Organization: ExampleRemoteIOVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Mapping between local I/O image and upstream IIoT/SCADA protocols such as Modbus, MQTT or proprietary telemetry."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId":"SPDXRef-WIOMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-WIOIOMgr"},
+    {"spdxElementId":"SPDXRef-WIOMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-WIORadio"},
+    {"spdxElementId":"SPDXRef-WIOMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-WIOProto"}
+  ]
+}

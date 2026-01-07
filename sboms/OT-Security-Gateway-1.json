@@ -1,0 +1,102 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "OT-Security-Gateway-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/ot-security-gateway-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:51:20Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleSegmentationVendor"
+    ]
+  },
+  "documentDescribes": ["SPDXRef-OTGWMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-OTGWMain",
+      "name": "OT-Security-Gateway-1-Main-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleSegmentationVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Firmware for an OT security gateway that segments networks and controls access between OT cells and IT/cloud."
+    },
+    {
+      "SPDXID": "SPDXRef-OTGWOS",
+      "name": "OT-Security-Gateway-1-Host-OS",
+      "versionInfo": "4.1.0",
+      "supplier": "Organization: ExampleOSVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Hardened Linux-based OS providing routing, firewalling and container/VM support for OT security services."
+    },
+    {
+      "SPDXID": "SPDXRef-OTGWSeg",
+      "name": "OT-Security-Gateway-1-Network-Segmentation-Engine",
+      "versionInfo": "2.3.0",
+      "supplier": "Organization: ExampleSegmentationVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Zone/conduit segmentation, VLANs, routing and policy control between OT, DMZ and IT segments."
+    },
+    {
+      "SPDXID": "SPDXRef-OTGWVPN",
+      "name": "OT-Security-Gateway-1-Remote-Access-VPN-Subsystem",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleSegmentationVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "VPN and secure remote access engine for service connections into OT networks."
+    },
+    {
+      "SPDXID": "SPDXRef-OTGWProtoConv",
+      "name": "OT-Security-Gateway-1-Protocol-Translation-Services",
+      "versionInfo": "1.7.0",
+      "supplier": "Organization: ExampleSegmentationVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Optional protocol conversion and proxy components between legacy OT protocols and modern secure protocols."
+    },
+    {
+      "SPDXID": "SPDXRef-OTGWSecurity",
+      "name": "OT-Security-Gateway-1-Platform-Security-and-Crypto",
+      "versionInfo": "2.2.0",
+      "supplier": "Organization: ExampleSegmentationVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Secure element/TPM integration, TLS, key management, secure updates and hardening measures."
+    },
+    {
+      "SPDXID": "SPDXRef-OTGWMgmt",
+      "name": "OT-Security-Gateway-1-Central-Management-Agent",
+      "versionInfo": "1.5.0",
+      "supplier": "Organization: ExampleSegmentationVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Agent for central orchestration, monitoring and policy deployment across multiple gateways."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId":"SPDXRef-OTGWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-OTGWOS"},
+    {"spdxElementId":"SPDXRef-OTGWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-OTGWSeg"},
+    {"spdxElementId":"SPDXRef-OTGWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-OTGWVPN"},
+    {"spdxElementId":"SPDXRef-OTGWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-OTGWProtoConv"},
+    {"spdxElementId":"SPDXRef-OTGWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-OTGWSecurity"},
+    {"spdxElementId":"SPDXRef-OTGWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-OTGWMgmt"}
+  ]
+}

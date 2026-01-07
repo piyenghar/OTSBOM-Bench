@@ -1,0 +1,66 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Safety-IO-Module-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/safety-io-module-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:54:10Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleSafetyIOVendor"
+    ]
+  },
+  "documentDescribes": ["SPDXRef-SIOMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-SIOMain",
+      "name": "Safety-IO-Module-1-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleSafetyIOVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Firmware for a remote safety I/O module providing safe inputs/outputs and optional standard I/O and IO-Link."
+    },
+    {
+      "SPDXID": "SPDXRef-SIOFW",
+      "name": "Safety-IO-Module-1-Safety-Logic-and-Diagnostics",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleSafetyIOVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Local safety-related diagnostics, line fault detection and channel monitoring functions."
+    },
+    {
+      "SPDXID": "SPDXRef-SIOProto",
+      "name": "Safety-IO-Module-1-Safety-Fieldbus-Stack",
+      "versionInfo": "2.2.0",
+      "supplier": "Organization: ExampleSafetyIOVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "PROFINET/PROFIsafe, EtherNet/IP CIP Safety or similar safety protocol stack with device description support."
+    },
+    {
+      "SPDXID": "SPDXRef-SIOCloud",
+      "name": "Safety-IO-Module-1-IIoT-and-Diagnostics-Interfaces",
+      "versionInfo": "1.4.0",
+      "supplier": "Organization: ExampleSafetyIOVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Optional OPC UA, MQTT, REST or CoAP endpoints for diagnostics and telemetry separate from safety control traffic."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId":"SPDXRef-SIOMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SIOFW"},
+    {"spdxElementId":"SPDXRef-SIOMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SIOProto"},
+    {"spdxElementId":"SPDXRef-SIOMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SIOCloud"}
+  ]
+}

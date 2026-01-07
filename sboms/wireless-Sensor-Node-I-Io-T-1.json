@@ -1,0 +1,66 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Wireless-Sensor-Node-IIoT-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/wireless-sensor-node-iiot-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:54:30Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleIIoTSensorVendor"
+    ]
+  },
+  "documentDescribes": ["SPDXRef-WSNMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-WSNMain",
+      "name": "Wireless-Sensor-Node-IIoT-1-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleIIoTSensorVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Battery-powered wireless sensor node for vibration and temperature monitoring in industrial environments."
+    },
+    {
+      "SPDXID": "SPDXRef-WSNMeasure",
+      "name": "Wireless-Sensor-Node-IIoT-1-Measurement-and-Edge-Analytics",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleIIoTSensorVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Triaxial vibration and temperature acquisition plus local FFT/KPI calculations for condition monitoring."
+    },
+    {
+      "SPDXID": "SPDXRef-WSNRadio",
+      "name": "Wireless-Sensor-Node-IIoT-1-Radio-Stack",
+      "versionInfo": "2.1.0",
+      "supplier": "Organization: ExampleIIoTSensorVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Low-power wireless protocol stack (e.g., Wirepas Mesh, BLE, sub-GHz, or proprietary) for connecting to gateways."
+    },
+    {
+      "SPDXID": "SPDXRef-WSNPower",
+      "name": "Wireless-Sensor-Node-IIoT-1-Power-Management",
+      "versionInfo": "1.6.0",
+      "supplier": "Organization: ExampleIIoTSensorVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Battery management, sleep scheduling and energy optimization for multi-year operation."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId":"SPDXRef-WSNMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-WSNMeasure"},
+    {"spdxElementId":"SPDXRef-WSNMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-WSNRadio"},
+    {"spdxElementId":"SPDXRef-WSNMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-WSNPower"}
+  ]
+}

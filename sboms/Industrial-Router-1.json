@@ -1,0 +1,126 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Industrial-Router-Wired-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/industrial-router-wired-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:19:00Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleNetworkVendor GmbH"
+    ]
+  },
+  "documentDescribes": ["SPDXRef-RouterWiredMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-RouterWiredMain",
+      "name": "Industrial-Router-Wired-1-Main-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleNetworkVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Firmware for a wired industrial VPN router with 4x Gigabit Ethernet ports, VLANs and industrial M2M protocols."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterWiredOS",
+      "name": "Industrial-Router-Wired-1-Embedded-OS",
+      "versionInfo": "4.0.0",
+      "supplier": "Organization: ExampleOSVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Hardened Linux-based OS for industrial routing and firewalling."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterWiredVPN",
+      "name": "Industrial-Router-Wired-1-VPN-Subsystem",
+      "versionInfo": "2.3.0",
+      "supplier": "Organization: ExampleNetworkVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "VPN component supporting OpenVPN, IPsec, WireGuard-like tunnels, ZeroTier/Tailscale-style overlays and similar protocols."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterWiredM2M",
+      "name": "Industrial-Router-Wired-1-M2M-Protocols",
+      "versionInfo": "1.5.0",
+      "supplier": "Organization: ExampleNetworkVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Support for MQTT, Modbus, DNP3, DLMS/COSEM and similar industrial protocols for telemetry and integration with PLCs and SCADA."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterWiredRouting",
+      "name": "Industrial-Router-Wired-1-Routing-and-Firewall",
+      "versionInfo": "3.1.0",
+      "supplier": "Organization: ExampleNetworkVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Ethernet-to-Ethernet routing, NAT, VLAN (up to 128 tag/port-based), firewall and DoS protection features."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterWiredRMS",
+      "name": "Industrial-Router-Wired-1-Remote-Management-Agent",
+      "versionInfo": "1.4.0",
+      "supplier": "Organization: ExampleNetworkVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Agent for remote management platform enabling configuration, monitoring and remote access to the router and attached devices."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterWiredWebUI",
+      "name": "Industrial-Router-Wired-1-Web-Configuration-Interface",
+      "versionInfo": "1.3.0",
+      "supplier": "Organization: ExampleNetworkVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Embedded web UI for configuration of VLANs, VPNs, routing, M2M protocols and system settings."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterWiredSecurity",
+      "name": "Industrial-Router-Wired-1-Security-Services",
+      "versionInfo": "1.2.0",
+      "supplier": "Organization: ExampleNetworkVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Authentication, RBAC, certificate management and secure firmware update mechanisms."
+    },
+    {
+      "SPDXID": "SPDXRef-RouterWiredLogging",
+      "name": "Industrial-Router-Wired-1-Logging-and-Monitoring",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleNetworkVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "System logs, traffic statistics and event notifications for network and VPN status."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId": "SPDXRef-RouterWiredMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterWiredOS"},
+    {"spdxElementId": "SPDXRef-RouterWiredMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterWiredVPN"},
+    {"spdxElementId": "SPDXRef-RouterWiredMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterWiredM2M"},
+    {"spdxElementId": "SPDXRef-RouterWiredMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterWiredRouting"},
+    {"spdxElementId": "SPDXRef-RouterWiredMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterWiredRMS"},
+    {"spdxElementId": "SPDXRef-RouterWiredMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterWiredWebUI"},
+    {"spdxElementId": "SPDXRef-RouterWiredMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterWiredSecurity"},
+    {"spdxElementId": "SPDXRef-RouterWiredMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-RouterWiredLogging"}
+  ]
+}

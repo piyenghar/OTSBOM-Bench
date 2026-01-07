@@ -1,0 +1,134 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Drive-Multi-Axis-1-Servo-System-SBOM",
+  "documentNamespace": "http://example.org/spdx/drive-multi-axis-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T14:48:00Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleVendor GmbH"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-DriveMultiMain"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-DriveMultiMain",
+      "name": "Drive-Multi-Axis-1-Main-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      ],
+      "summary": "Main firmware image for a modular multi-axis servo drive system with integrated safety functions."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveRTOS",
+      "name": "Drive-Multi-Axis-1-Embedded-RTOS",
+      "versionInfo": "3.2.0",
+      "supplier": "Organization: ExampleRTOS Vendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Real-time operating system for coordinated multi-axis motion and fast control loops."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveFieldbusEtherCAT",
+      "name": "Drive-Multi-Axis-1-EtherCAT-Interface",
+      "versionInfo": "2.1.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "EtherCAT slave communication stack for real-time coupling to a motion controller or PLC."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveFieldbusVARAN",
+      "name": "Drive-Multi-Axis-1-VARAN-Interface",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "VARAN real-time Ethernet interface for drive control and diagnostics."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveCurrentLoop",
+      "name": "Drive-Multi-Axis-1-Current-and-Speed-Control",
+      "versionInfo": "1.4.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Low-level current and speed control loops for each servo axis."
+    },
+    {
+      "SPDXID": "SPDXRef-DrivePositioning",
+      "name": "Drive-Multi-Axis-1-Positioning-and-Camming",
+      "versionInfo": "1.5.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Positioning, camming and interpolation functions for coordinated multi-axis motion."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveSafety",
+      "name": "Drive-Multi-Axis-1-Safety-Module",
+      "versionInfo": "2.3.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Integrated safety module providing STO, SS1, SS2, SOS and safe speed/position functions up to SIL 3 / PL e."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveDiag",
+      "name": "Drive-Multi-Axis-1-Diagnostics-and-Logging",
+      "versionInfo": "1.2.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Diagnostics, event logging and trace functionality per axis."
+    },
+    {
+      "SPDXID": "SPDXRef-DriveBootloader",
+      "name": "Drive-Multi-Axis-1-Bootloader-and-Firmware-Update",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleDriveVendor AG",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Boot and firmware update component for module and axis firmware images."
+    }
+  ],
+  "relationships": [
+    { "spdxElementId": "SPDXRef-DriveMultiMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveRTOS" },
+    { "spdxElementId": "SPDXRef-DriveMultiMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveFieldbusEtherCAT" },
+    { "spdxElementId": "SPDXRef-DriveMultiMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveFieldbusVARAN" },
+    { "spdxElementId": "SPDXRef-DriveMultiMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveCurrentLoop" },
+    { "spdxElementId": "SPDXRef-DriveMultiMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DrivePositioning" },
+    { "spdxElementId": "SPDXRef-DriveMultiMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveSafety" },
+    { "spdxElementId": "SPDXRef-DriveMultiMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveDiag" },
+    { "spdxElementId": "SPDXRef-DriveMultiMain", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-DriveBootloader" }
+  ]
+}

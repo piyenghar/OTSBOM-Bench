@@ -1,0 +1,102 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Industrial-Switch-L3-Managed-ICS-1-SBOM",
+  "documentNamespace": "http://example.org/spdx/industrial-switch-l3-managed-ics-1-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:51:40Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleSwitchVendor"
+    ]
+  },
+  "documentDescribes": ["SPDXRef-SWMain"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-SWMain",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleSwitchVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Firmware for a fanless L2/L3 managed industrial Ethernet switch with ICS-specific management features."
+    },
+    {
+      "SPDXID": "SPDXRef-SWOS",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-Switch-OS",
+      "versionInfo": "5.0.0",
+      "supplier": "Organization: ExampleSwitchVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Switch operating system providing Layer 2/3 switching and routing functions."
+    },
+    {
+      "SPDXID": "SPDXRef-SWL2L3",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-L2L3-Services",
+      "versionInfo": "3.4.0",
+      "supplier": "Organization: ExampleSwitchVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "VLAN, QoS, IGMP/MLD, static routing, OSPF/RIP (if present), port trunking and redundancy technologies such as Turbo Ring/Chain and RSTP."
+    },
+    {
+      "SPDXID": "SPDXRef-SWICSProto",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-ICS-Protocol-Management",
+      "versionInfo": "2.2.0",
+      "supplier": "Organization: ExampleSwitchVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Support for EtherNet/IP, PROFINET, Modbus TCP and similar protocols for device discovery and diagnostics."
+    },
+    {
+      "SPDXID": "SPDXRef-SWSecurity",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-Security-Features",
+      "versionInfo": "2.1.0",
+      "supplier": "Organization: ExampleSwitchVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "ACLs, port security, 802.1X, HTTPS, SSH, SNMPv3 and IEC 62443-aligned security enhancements."
+    },
+    {
+      "SPDXID": "SPDXRef-SWMgmt",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-Management-Stack",
+      "versionInfo": "1.9.0",
+      "supplier": "Organization: ExampleSwitchVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "CLI, web UI, SNMP, and integration with network management tools for monitoring and configuration."
+    },
+    {
+      "SPDXID": "SPDXRef-SWLogging",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-Logging-and-Events",
+      "versionInfo": "1.3.0",
+      "supplier": "Organization: ExampleSwitchVendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Syslog, email/relay alarms and performance counters for switch health and traffic anomalies."
+    }
+  ],
+  "relationships": [
+    {"spdxElementId":"SPDXRef-SWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SWOS"},
+    {"spdxElementId":"SPDXRef-SWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SWL2L3"},
+    {"spdxElementId":"SPDXRef-SWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SWICSProto"},
+    {"spdxElementId":"SPDXRef-SWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SWSecurity"},
+    {"spdxElementId":"SPDXRef-SWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SWMgmt"},
+    {"spdxElementId":"SPDXRef-SWMain","relationshipType":"CONTAINS","relatedSpdxElement":"SPDXRef-SWLogging"}
+  ]
+}

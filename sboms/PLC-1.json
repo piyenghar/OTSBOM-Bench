@@ -1,0 +1,182 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "PLC-1-Compact-Controller-SBOM",
+  "documentNamespace": "http://example.org/spdx/plc-1-compact-controller-1.0",
+  "creationInfo": {
+    "created": "2025-12-15T15:25:00Z",
+    "creators": [
+      "Tool: Example-SPDX-Generator-1.0",
+      "Organization: ExampleVendor GmbH"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-PLC1Firmware"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-PLC1Firmware",
+      "name": "PLC-1-Main-Firmware",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      ],
+      "summary": "Main firmware image for a compact PLC with integrated PROFINET, web server, PID and motion control."
+    },
+    {
+      "SPDXID": "SPDXRef-RTOS",
+      "name": "PLC-1-Embedded-RTOS",
+      "versionInfo": "3.2.0",
+      "supplier": "Organization: ExampleRTOS Vendor",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Real-time operating system providing task scheduling, memory management and basic kernel services for the PLC CPU."
+    },
+    {
+      "SPDXID": "SPDXRef-ProfinetStack",
+      "name": "PLC-1-PROFINET-Communication-Stack",
+      "versionInfo": "2.4.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Industrial Ethernet / PROFINET IO controller stack used for communication with IO devices, drives and HMIs."
+    },
+    {
+      "SPDXID": "SPDXRef-ModbusTCP",
+      "name": "PLC-1-Modbus-TCP-Stack",
+      "versionInfo": "1.3.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Modbus TCP/IP communication stack used for integration with third-party devices."
+    },
+    {
+      "SPDXID": "SPDXRef-OPCUAServer",
+      "name": "PLC-1-OPC-UA-Server",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "OPC UA server component for secure data exchange with SCADA, MES and edge systems."
+    },
+    {
+      "SPDXID": "SPDXRef-WebServer",
+      "name": "PLC-1-Integrated-Web-Server",
+      "versionInfo": "2.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Embedded web server providing diagnostics, status pages and basic parameterization."
+    },
+    {
+      "SPDXID": "SPDXRef-MotionControl",
+      "name": "PLC-1-Motion-Control-Library",
+      "versionInfo": "4.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Integrated motion control library supporting basic positioning, speed control and PROFIdrive-based drive control."
+    },
+    {
+      "SPDXID": "SPDXRef-PIDLib",
+      "name": "PLC-1-PID-Control-Library",
+      "versionInfo": "2.2.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "PID controller library with auto-tuning for process control loops."
+    },
+    {
+      "SPDXID": "SPDXRef-DiagTrace",
+      "name": "PLC-1-Diagnostics-and-Trace-Module",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Diagnostics, trace and logic analyzer module used for commissioning and troubleshooting."
+    },
+    {
+      "SPDXID": "SPDXRef-Bootloader",
+      "name": "PLC-1-Bootloader-and-Firmware-Update",
+      "versionInfo": "1.1.0",
+      "supplier": "Organization: ExampleVendor GmbH",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "summary": "Boot and firmware update component responsible for secure loading and rollback of the PLC firmware."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-PLC1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-RTOS"
+    },
+    {
+      "spdxElementId": "SPDXRef-PLC1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-ProfinetStack"
+    },
+    {
+      "spdxElementId": "SPDXRef-PLC1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-ModbusTCP"
+    },
+    {
+      "spdxElementId": "SPDXRef-PLC1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-OPCUAServer"
+    },
+    {
+      "spdxElementId": "SPDXRef-PLC1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-WebServer"
+    },
+    {
+      "spdxElementId": "SPDXRef-PLC1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-MotionControl"
+    },
+    {
+      "spdxElementId": "SPDXRef-PLC1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-PIDLib"
+    },
+    {
+      "spdxElementId": "SPDXRef-PLC1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-DiagTrace"
+    },
+    {
+      "spdxElementId": "SPDXRef-PLC1Firmware",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Bootloader"
+    }
+  ]
+}
