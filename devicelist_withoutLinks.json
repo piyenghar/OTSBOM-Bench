@@ -1,0 +1,73 @@
+{
+  "ot_device_archetypes": [
+    {
+      "category": "Core control and supervision",
+      "examples": [
+        "PLC (programmable logic controller)",
+        "PAC (programmable automation controller)",
+        "Safety PLC",
+        "RTU (remote terminal unit)",
+        "SCADA server",
+        "SCADA client / operator station",
+        "DCS controller node",
+        "DCS engineering / maintenance station",
+        "Engineering workstation for PLC/drive configuration",
+        "HMI panel (compact touch HMI)",
+        "Panel-PC HMI (PC-class HMI)",
+        "Combined HMI + gateway panel"
+      ]
+    },
+    {
+      "category": "Field, edge, and connectivity devices",
+      "examples": [
+        "Multi-axis servo drive",
+        "Single-axis variable-speed drive (VSD/VFD) with Ethernet/fieldbus",
+        "Motion controller (robot or multi-axis motion controller)",
+        "Safety drive (drive with integrated safety functions)",
+        "OPC UA / Modbus / Profinet gateway",
+        "PLC–cloud edge gateway (IIoT edge box)",
+        "Industrial protocol converter (e.g., Modbus–Profinet, Modbus–EtherNet/IP)",
+        "Industrial router (wired)",
+        "Industrial 4G/5G router / cellular modem",
+        "Remote access / maintenance box (VPN-based)",
+        "Data acquisition (DAQ) unit for sensors/I/O",
+        "Condition-monitoring device",
+        "Environmental/utility monitoring gateway"
+      ]
+    },
+    {
+      "category": "OT security and network infrastructure",
+      "examples": [
+        "Industrial firewall (zone/cell boundary)",
+        "Deep-packet-inspection ICS firewall",
+        "OT security gateway / segmentation appliance",
+        "Unidirectional gateway / data diode",
+        "Managed industrial Ethernet switch (L2/L3 with ICS features)",
+        "Secure edge platform (legacy-to-IT/cloud bridge)",
+        "OT network TAP / aggregation device"
+      ]
+    },
+    {
+      "category": "Safety, sensors, and smart field devices",
+      "examples": [
+        "Safety controller (dedicated safety logic controller)",
+        "Safety I/O module (e.g., PROFIsafe/FSoE)",
+        "Intelligent sensor (smart pressure/temperature/flow sensor with Ethernet)",
+        "Wireless sensor node (battery-powered IIoT sensor)",
+        "Smart actuator (valve/drive with embedded controller and network interface)",
+        "Wireless I/O module / remote I/O island"
+      ]
+    },
+    {
+      "category": "Compute platforms and software systems",
+      "examples": [
+        "Industrial PC (IPC) running SCADA/HMI/edge analytics",
+        "Hypervisor-based edge server (consolidating OT VMs)",
+        "Historian server",
+        "Manufacturing execution system (MES) server component",
+        "Plant analytics / OEE monitoring server",
+        "On-prem industrial data lake / broker appliance"
+      ]
+    }
+  ]
+}

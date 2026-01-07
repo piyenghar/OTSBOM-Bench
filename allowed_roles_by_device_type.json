@@ -1,0 +1,290 @@
+{
+  "Compact PLC": [
+    "HMI",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MeasurementAnalytics",
+    "OS",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "Condition monitoring device": [
+    "HMI",
+    "MainFirmware",
+    "MeasurementAnalytics",
+    "OS",
+    "Other",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "DCS Engineering/Maintenance Station": [
+    "EngineeringTools",
+    "HMI",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "DCS field control station": [
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MeasurementAnalytics",
+    "OS",
+    "Other",
+    "ProtocolStack",
+    "RoutingManagement",
+    "SecurityServices"
+  ],
+  "Engineering Workstation": [
+    "ApplicationRuntime",
+    "EngineeringTools",
+    "LoggingMonitoring",
+    "SecurityServices"
+  ],
+  "HMI Panel": [
+    "HMI",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "SecurityServices",
+    "UpdateBoot"
+  ],
+  "HMI gateway": [
+    "HMI",
+    "MainFirmware"
+  ],
+  "Industrial Cellular Router": [
+    "MainFirmware",
+    "OS",
+    "ProtocolStack",
+    "SecurityServices",
+    "Unknown",
+    "UpdateBoot"
+  ],
+  "Industrial DAQ unit": [
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MeasurementAnalytics",
+    "OS",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "Industrial DPI firewall": [
+    "DPIEngine",
+    "Firewall",
+    "IntrusionDetection",
+    "MainFirmware",
+    "OS",
+    "RoutingManagement",
+    "SecurityServices"
+  ],
+  "Industrial Ethernet switch": [
+    "HMI",
+    "MainFirmware",
+    "OS",
+    "Other",
+    "ProtocolStack"
+  ],
+  "Industrial Protocol Gateway": [
+    "LoggingMonitoring",
+    "MainFirmware",
+    "OS",
+    "ProtocolStack",
+    "SecurityServices",
+    "UpdateBoot"
+  ],
+  "Industrial Router": [
+    "MainFirmware",
+    "Management",
+    "OS",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "Industrial firewall": [
+    "HMI",
+    "MainFirmware",
+    "OS",
+    "Other",
+    "SecurityServices"
+  ],
+  "Industrial protocol converter gateway": [
+    "HMI",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MeasurementAnalytics",
+    "OS",
+    "ProtocolStack",
+    "RoutingManagement",
+    "SecurityServices"
+  ],
+  "Industrial remote-access VPN box": [
+    "HMI",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "OS",
+    "RoutingManagement",
+    "SecurityServices"
+  ],
+  "Intelligent Ethernet Sensor": [
+    "MainFirmware",
+    "MeasurementAnalytics",
+    "ProtocolStack"
+  ],
+  "Multi-Axis Servo Drive": [
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MotionControl",
+    "OS",
+    "ProtocolStack",
+    "SafetyLogic",
+    "UpdateBoot"
+  ],
+  "Multi-axis motion controller": [
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MeasurementAnalytics",
+    "OS",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "OT network tap": [
+    "MainFirmware",
+    "OS",
+    "ProtocolStack"
+  ],
+  "OT security gateway": [
+    "MainFirmware",
+    "OS",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "One-way gateway / data diode": [
+    "MainFirmware",
+    "OS",
+    "Other",
+    "ProtocolStack"
+  ],
+  "PLC\u2013cloud edge gateway": [
+    "Firewall",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MeasurementAnalytics",
+    "OS",
+    "ProtocolStack",
+    "RoutingManagement",
+    "SecurityServices"
+  ],
+  "Panel PC HMI / SCADA workstation": [
+    "HMI",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "Other",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "Programmable automation controller (PAC)": [
+    "HMI",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MeasurementAnalytics",
+    "OS",
+    "Other",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "Remote Terminal Unit": [
+    "LoggingMonitoring",
+    "MainFirmware",
+    "ProtocolStack",
+    "UpdateBoot"
+  ],
+  "SCADA Client / Operator Station": [
+    "ApplicationLogic",
+    "ApplicationRuntime",
+    "LoggingMonitoring",
+    "MainApplication",
+    "MeasurementAnalytics",
+    "SecurityServices"
+  ],
+  "SCADA Server / Gateway": [
+    "ApplicationLogic",
+    "ApplicationRuntime",
+    "EngineeringTools",
+    "LoggingMonitoring",
+    "MainApplication",
+    "MeasurementAnalytics",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "Safety Drive": [
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MotionControl",
+    "OS",
+    "ProtocolStack",
+    "SafetyLogic",
+    "UpdateBoot"
+  ],
+  "Safety PLC": [
+    "EngineeringTools",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MotionControl",
+    "OS",
+    "ProtocolStack",
+    "UpdateBoot"
+  ],
+  "Safety PLC Controller": [
+    "EngineeringTools",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "OS",
+    "ProtocolStack",
+    "SafetyLogic"
+  ],
+  "Safety Remote I/O Module": [
+    "LoggingMonitoring",
+    "MainFirmware",
+    "ProtocolStack"
+  ],
+  "Secure Edge Platform": [
+    "ApplicationRuntime",
+    "MainFirmware",
+    "ProtocolStack",
+    "SecurityServices"
+  ],
+  "Single-Axis Variable Speed Drive": [
+    "LoggingMonitoring",
+    "MainFirmware",
+    "MotionControl",
+    "OS",
+    "ProtocolStack",
+    "SafetyLogic",
+    "UpdateBoot"
+  ],
+  "Smart Actuator": [
+    "ControlLogic",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "ProtocolStack"
+  ],
+  "Utility/Environmental Monitoring Gateway": [
+    "HMIVisualization",
+    "IOManagement",
+    "LoggingMonitoring",
+    "MainFirmware",
+    "OS",
+    "ProtocolStack",
+    "SecurityServices",
+    "Unknown"
+  ],
+  "Wireless IIoT sensor node": [
+    "MainFirmware",
+    "MeasurementAnalytics",
+    "ProtocolStack"
+  ],
+  "Wireless Remote I/O Module": [
+    "IOManagement",
+    "MainFirmware",
+    "ProtocolStack"
+  ]
+}
