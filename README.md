@@ -1,6 +1,21 @@
 # OTSBOM-Bench
-OTSBOM-Bench is a curated benchmark of 38 expert-constructed SPDX SBOMs representing diverse operational technology (OT) device archetypes. The dataset includes gold labels for device type and component-level functional roles, enabling reproducible evaluation of semantic SBOM interpretation and architecture plausibility assessment.
 
+**OTSBOM-Bench** is a curated dataset of **38 operational technology (OT) Software Bills of Materials (SBOMs)** provided in **SPDX JSON format**, each paired with an expert-defined **gold annotation** describing the OT device type and the functional roles of its software components.
+
+The dataset is intended to support **semantic interpretation and architectural plausibility assessment of OT SBOMs**, rather than vulnerability detection or SBOM generation.
+
+---
+
+## Repository Contents
+
+This repository contains the following artifacts:
+
+OTSBOM-Bench/
+├── sboms/ # 38 SPDX SBOMs (one per OT device)
+├── gold/ # 38 gold-label files (one per SBOM)
+├── allowed_roles_by_device_type.json
+├── devicelist_withoutLinks.json
+└── README.md
 
 ### `sboms/`
 - Contains **38 SPDX 2.3 SBOM files** in JSON format  
