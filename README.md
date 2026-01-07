@@ -86,6 +86,21 @@ These constraints are part of the dataset and enable explicit distinction betwee
 An example pair is provided for a **DCS field control station**, illustrating how operating systems, protocol stacks, control logic, redundancy management, and monitoring components are mapped to functional roles.
 
 ---
+## Example: Condition Monitoring Device
+
+The dataset includes an SBOM for a condition monitoring device and its
+corresponding gold annotation.
+
+- SBOM: `sboms/Condition-Monitoring-Device-1.json`
+- Gold labels: `gold/gold_Condition-Monitoring-Device-1_Task1.json`
+
+The SBOM describes firmware, a real-time operating system, signal
+conditioning and analytics components, industrial communication stacks,
+a local UI, and security services.  
+The gold annotation assigns a single OT device type and maps each SPDX
+package to a functional role consistent with the device architecture.
+
+---
 
 ## Intended Use
 
