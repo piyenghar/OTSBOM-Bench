@@ -1,0 +1,25 @@
+{
+  "device_type": "Safety Remote I/O Module",
+  "components": [
+    {
+      "id": "SPDXRef-SIOMain",
+      "name": "Safety-IO-Module-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-SIOFW",
+      "name": "Safety-IO-Module-1-Safety-Logic-and-Diagnostics",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-SIOProto",
+      "name": "Safety-IO-Module-1-Safety-Fieldbus-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-SIOCloud",
+      "name": "Safety-IO-Module-1-IIoT-and-Diagnostics-Interfaces",
+      "role": "LoggingMonitoring"
+    }
+  ]
+}

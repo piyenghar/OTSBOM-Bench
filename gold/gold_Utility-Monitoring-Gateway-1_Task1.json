@@ -1,0 +1,55 @@
+{
+  "device_type": "Utility/Environmental Monitoring Gateway",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-EnvGWMain",
+      "name": "Env-Utility-Monitoring-Gateway-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-EnvGWRTOS",
+      "name": "Env-Utility-Monitoring-Gateway-1-RTOS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-EnvGWIOMgr",
+      "name": "Env-Utility-Monitoring-Gateway-1-I-O-and-Sensor-Manager",
+      "role": "IOManagement"
+    },
+    {
+      "spdx_id": "SPDXRef-EnvGWLogic",
+      "name": "Env-Utility-Monitoring-Gateway-1-Programmable-Logic-and-Timers",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-EnvGWComm",
+      "name": "Env-Utility-Monitoring-Gateway-1-Communication-Subsystem",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-EnvGWProtocols",
+      "name": "Env-Utility-Monitoring-Gateway-1-Protocol-Stacks",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-EnvGWVideo",
+      "name": "Env-Utility-Monitoring-Gateway-1-Video-and-Image-Module",
+      "role": "Unknown"
+    },
+    {
+      "spdx_id": "SPDXRef-EnvGWEarlyWarn",
+      "name": "Env-Utility-Monitoring-Gateway-1-Alarm-and-Notification-Engine",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-EnvGWCloud",
+      "name": "Env-Utility-Monitoring-Gateway-1-Cloud-and-Server-Connectors",
+      "role": "HMIVisualization"
+    },
+    {
+      "spdx_id": "SPDXRef-EnvGWSecurity",
+      "name": "Env-Utility-Monitoring-Gateway-1-Security-and-Device-Management",
+      "role": "SecurityServices"
+    }
+  ]
+}

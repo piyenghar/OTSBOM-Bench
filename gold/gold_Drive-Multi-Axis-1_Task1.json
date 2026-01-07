@@ -1,0 +1,51 @@
+{
+  "device_type": "Multi-Axis Servo Drive",
+
+  "components": [
+    {
+      "id": "SPDXRef-DriveMultiMain",
+      "name": "Drive-Multi-Axis-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-DriveRTOS",
+      "name": "Drive-Multi-Axis-1-Embedded-RTOS",
+      "role": "OS"
+    },
+    {
+      "id": "SPDXRef-DriveFieldbusEtherCAT",
+      "name": "Drive-Multi-Axis-1-EtherCAT-Interface",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-DriveFieldbusVARAN",
+      "name": "Drive-Multi-Axis-1-VARAN-Interface",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-DriveCurrentLoop",
+      "name": "Drive-Multi-Axis-1-Current-and-Speed-Control",
+      "role": "MotionControl"
+    },
+    {
+      "id": "SPDXRef-DrivePositioning",
+      "name": "Drive-Multi-Axis-1-Positioning-and-Camming",
+      "role": "MotionControl"
+    },
+    {
+      "id": "SPDXRef-DriveSafety",
+      "name": "Drive-Multi-Axis-1-Safety-Module",
+      "role": "SafetyLogic"
+    },
+    {
+      "id": "SPDXRef-DriveDiag",
+      "name": "Drive-Multi-Axis-1-Diagnostics-and-Logging",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-DriveBootloader",
+      "name": "Drive-Multi-Axis-1-Bootloader-and-Firmware-Update",
+      "role": "UpdateBoot"
+    }
+  ]
+}

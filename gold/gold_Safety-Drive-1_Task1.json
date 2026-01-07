@@ -1,0 +1,51 @@
+{
+  "device_type": "Safety Drive",
+
+  "components": [
+    {
+      "id": "SPDXRef-SafetyDriveMain",
+      "name": "Safety-Drive-1-Main-Drive-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-SafetyDriveRTOS",
+      "name": "Safety-Drive-1-Drive-RTOS",
+      "role": "OS"
+    },
+    {
+      "id": "SPDXRef-SafetyDriveControl",
+      "name": "Safety-Drive-1-Speed-and-Torque-Control",
+      "role": "MotionControl"
+    },
+    {
+      "id": "SPDXRef-SafetyDriveFieldbus",
+      "name": "Safety-Drive-1-Fieldbus-Communication-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-SafetyDriveSafeComm",
+      "name": "Safety-Drive-1-Safe-Fieldbus-Extension",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-SafetyFunctions",
+      "name": "Safety-Drive-1-Functional-Safety-Module",
+      "role": "SafetyLogic"
+    },
+    {
+      "id": "SPDXRef-SafetyMonitoring",
+      "name": "Safety-Drive-1-Axis-Monitoring-and-Logic",
+      "role": "SafetyLogic"
+    },
+    {
+      "id": "SPDXRef-SafetyDriveDiag",
+      "name": "Safety-Drive-1-Diagnostics-and-Safety-Logging",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-SafetyDriveBoot",
+      "name": "Safety-Drive-1-Bootloader-and-Update-Manager",
+      "role": "UpdateBoot"
+    }
+  ]
+}

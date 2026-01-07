@@ -1,0 +1,25 @@
+{
+  "device_type": "Wireless IIoT sensor node",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-WSNMain",
+      "name": "Wireless-Sensor-Node-IIoT-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-WSNMeasure",
+      "name": "Wireless-Sensor-Node-IIoT-1-Measurement-and-Edge-Analytics",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-WSNRadio",
+      "name": "Wireless-Sensor-Node-IIoT-1-Radio-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-WSNPower",
+      "name": "Wireless-Sensor-Node-IIoT-1-Power-Management",
+      "role": "ProtocolStack"
+    }
+  ]
+}

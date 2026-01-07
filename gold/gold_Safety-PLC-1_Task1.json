@@ -1,0 +1,50 @@
+{
+  "device_type": "Safety PLC",
+  "components": [
+    {
+      "id": "SPDXRef-SafetyPLC1Firmware",
+      "name": "Safety-PLC-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-RTOS",
+      "name": "Safety-PLC-1-Embedded-RTOS",
+      "role": "OS"
+    },
+    {
+      "id": "SPDXRef-EtherCATStack",
+      "name": "Safety-PLC-1-EtherCAT-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-FSoEStack",
+      "name": "Safety-PLC-1-FSoE-Safety-Protocol-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-SafetyRuntime",
+      "name": "Safety-PLC-1-Safety-Runtime-Environment",
+      "role": "EngineeringTools"
+    },
+    {
+      "id": "SPDXRef-SafetyFunctionLib",
+      "name": "Safety-PLC-1-Safety-Function-Library",
+      "role": "MotionControl"
+    },
+    {
+      "id": "SPDXRef-ConfigInterface",
+      "name": "Safety-PLC-1-Engineering-Interface",
+      "role": "EngineeringTools"
+    },
+    {
+      "id": "SPDXRef-Diagnostics",
+      "name": "Safety-PLC-1-Diagnostics-and-Status-Module",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-Bootloader",
+      "name": "Safety-PLC-1-Bootloader-and-Firmware-Update",
+      "role": "UpdateBoot"
+    }
+  ]
+}

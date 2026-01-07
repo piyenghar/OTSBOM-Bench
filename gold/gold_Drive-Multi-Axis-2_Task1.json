@@ -1,0 +1,46 @@
+{
+  "device_type": "Single-Axis Variable Speed Drive",
+
+  "components": [
+    {
+      "id": "SPDXRef-DriveSingleMain",
+      "name": "Drive-Single-Axis-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-DriveSingleRTOS",
+      "name": "Drive-Single-Axis-1-Embedded-RTOS",
+      "role": "OS"
+    },
+    {
+      "id": "SPDXRef-DriveSingleEtherCAT",
+      "name": "Drive-Single-Axis-1-EtherCAT-Fieldbus-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-DriveSingleProfinet",
+      "name": "Drive-Single-Axis-1-PROFINET-Fieldbus-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-DriveSingleControl",
+      "name": "Drive-Single-Axis-1-Speed-and-Position-Control",
+      "role": "MotionControl"
+    },
+    {
+      "id": "SPDXRef-DriveSingleSTO",
+      "name": "Drive-Single-Axis-1-Safe-Torque-Off-Module",
+      "role": "SafetyLogic"
+    },
+    {
+      "id": "SPDXRef-DriveSingleDiag",
+      "name": "Drive-Single-Axis-1-Diagnostics-and-Events",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-DriveSingleBootloader",
+      "name": "Drive-Single-Axis-1-Bootloader-and-Firmware-Update",
+      "role": "UpdateBoot"
+    }
+  ]
+}

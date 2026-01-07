@@ -1,0 +1,40 @@
+{
+  "device_type": "Industrial firewall",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-IFWMain",
+      "name": "Industrial-Firewall-Zone-Cell-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-IFWOS",
+      "name": "Industrial-Firewall-Zone-Cell-1-Embedded-OS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-IFWFilter",
+      "name": "Industrial-Firewall-Zone-Cell-1-Packet-Filter-and-Policy-Engine",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-IFWVPN",
+      "name": "Industrial-Firewall-Zone-Cell-1-VPN-Server-Client",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-IFWUserMgmt",
+      "name": "Industrial-Firewall-Zone-Cell-1-User-and-Auth-Services",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-IFWDiag",
+      "name": "Industrial-Firewall-Zone-Cell-1-Logging-and-Diagnostics",
+      "role": "Other"
+    },
+    {
+      "spdx_id": "SPDXRef-IFWUI",
+      "name": "Industrial-Firewall-Zone-Cell-1-Web-Config-Interface",
+      "role": "HMI"
+    }
+  ]
+}

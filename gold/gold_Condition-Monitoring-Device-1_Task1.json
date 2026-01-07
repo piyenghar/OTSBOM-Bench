@@ -1,0 +1,50 @@
+{
+  "device_type": "Condition monitoring device",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-CMMain",
+      "name": "Condition-Monitoring-Device-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-CMRTOS",
+      "name": "Condition-Monitoring-Device-1-Real-Time-OS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-CMSignalCond",
+      "name": "Condition-Monitoring-Device-1-Signal-Conditioning-and-DAQ",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-CMFeatureExtract",
+      "name": "Condition-Monitoring-Device-1-Feature-Extraction-and-Analytics",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-CMProtocols",
+      "name": "Condition-Monitoring-Device-1-Industrial-Communication-Stacks",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-CMHistorianClient",
+      "name": "Condition-Monitoring-Device-1-Historian-and-Cloud-Client",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-CMEvents",
+      "name": "Condition-Monitoring-Device-1-Event-and-Rule-Engine",
+      "role": "Other"
+    },
+    {
+      "spdx_id": "SPDXRef-CMEdgeUI",
+      "name": "Condition-Monitoring-Device-1-Local-UI-and-Dashboard-Agent",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-CMSecurity",
+      "name": "Condition-Monitoring-Device-1-Security-and-Access-Control",
+      "role": "SecurityServices"
+    }
+  ]
+}

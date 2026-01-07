@@ -1,0 +1,55 @@
+{
+  "device_type": "Programmable automation controller (PAC)",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-PAC1Firmware",
+      "name": "PAC-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-RTOS",
+      "name": "PAC-1-Embedded-RTOS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-ProfinetStack",
+      "name": "PAC-1-PROFINET-Communication-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-OPCUAServer",
+      "name": "PAC-1-OPC-UA-Server",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-WebServer",
+      "name": "PAC-1-Integrated-Web-Server",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-AdvancedMotion",
+      "name": "PAC-1-Advanced-Motion-Control",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-SafetyRuntime",
+      "name": "PAC-1-Safety-Runtime",
+      "role": "Other"
+    },
+    {
+      "spdx_id": "SPDXRef-Diagnostics",
+      "name": "PAC-1-Diagnostics-and-Trace",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-SecurityServices",
+      "name": "PAC-1-Security-Services",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-Bootloader",
+      "name": "PAC-1-Bootloader-and-Firmware-Update",
+      "role": "SecurityServices"
+    }
+  ]
+}

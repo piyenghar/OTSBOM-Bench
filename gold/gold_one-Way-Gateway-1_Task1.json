@@ -1,0 +1,35 @@
+{
+  "device_type": "One-way gateway / data diode",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-UDGMain",
+      "name": "Unidirectional-Gateway-Data-Diode-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-UDGTXOS",
+      "name": "Unidirectional-Gateway-Data-Diode-1-TX-OS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-UDGRXOS",
+      "name": "Unidirectional-Gateway-Data-Diode-1-RX-OS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-UDGReplicate",
+      "name": "Unidirectional-Gateway-Data-Diode-1-Replication-Middleware",
+      "role": "Other"
+    },
+    {
+      "spdx_id": "SPDXRef-UDGProtoAdapt",
+      "name": "Unidirectional-Gateway-Data-Diode-1-Protocol-Adaptors",
+      "role": "Other"
+    },
+    {
+      "spdx_id": "SPDXRef-UDGSecurity",
+      "name": "Unidirectional-Gateway-Data-Diode-1-Security-and-Mgmt",
+      "role": "ProtocolStack"
+    }
+  ]
+}

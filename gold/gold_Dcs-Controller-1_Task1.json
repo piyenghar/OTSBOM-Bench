@@ -1,0 +1,60 @@
+{
+  "device_type": "DCS field control station",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-DCSControllerMain",
+      "name": "DCS-Controller-1-Main-FCS-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-ControllerRTOS",
+      "name": "DCS-Controller-1-Embedded-RTOS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-FieldbusFoundation",
+      "name": "DCS-Controller-1-FOUNDATION-Fieldbus-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-ProfibusDP",
+      "name": "DCS-Controller-1-PROFIBUS-DP-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-Modbus",
+      "name": "DCS-Controller-1-Modbus-RTU-TCP-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-EtherNetIP",
+      "name": "DCS-Controller-1-EtherNet-IP-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-ControlFunctionBlocks",
+      "name": "DCS-Controller-1-Control-Function-Block-Library",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-RedundancyMgr",
+      "name": "DCS-Controller-1-Redundancy-Management-Module",
+      "role": "RoutingManagement"
+    },
+    {
+      "spdx_id": "SPDXRef-AlarmEvent",
+      "name": "DCS-Controller-1-Alarm-and-Event-Module",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-PRMInterface",
+      "name": "DCS-Controller-1-Asset-Management-Interface",
+      "role": "Other"
+    },
+    {
+      "spdx_id": "SPDXRef-ControllerBootloader",
+      "name": "DCS-Controller-1-Bootloader-and-Online-Upgrade",
+      "role": "SecurityServices"
+    }
+  ]
+}

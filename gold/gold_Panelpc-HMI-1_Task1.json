@@ -1,0 +1,45 @@
+{
+  "device_type": "Panel PC HMI / SCADA workstation",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-PanelPCHMIMain",
+      "name": "PanelPC-HMI-1-HMI-Workstation-Software",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-PanelPCHMIVisualization",
+      "name": "PanelPC-HMI-1-Visualization-Runtime",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-PanelPCHMIComm",
+      "name": "PanelPC-HMI-1-Device-Communication-Module",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-PanelPCHMIWebServer",
+      "name": "PanelPC-HMI-1-Web-Server",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-PanelPCHMIAlarming",
+      "name": "PanelPC-HMI-1-Alarming-Module",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-PanelPCHMIStoreForward",
+      "name": "PanelPC-HMI-1-Store-And-Forward-Buffer",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-PanelPCHMIScripting",
+      "name": "PanelPC-HMI-1-Scripting-Engine",
+      "role": "Other"
+    },
+    {
+      "spdx_id": "SPDXRef-PanelPCHMISecurity",
+      "name": "PanelPC-HMI-1-UserAuth-and-Security",
+      "role": "SecurityServices"
+    }
+  ]
+}

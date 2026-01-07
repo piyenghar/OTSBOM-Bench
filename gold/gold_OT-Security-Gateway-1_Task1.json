@@ -1,0 +1,40 @@
+{
+  "device_type": "OT security gateway",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-OTGWMain",
+      "name": "OT-Security-Gateway-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-OTGWOS",
+      "name": "OT-Security-Gateway-1-Host-OS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-OTGWSeg",
+      "name": "OT-Security-Gateway-1-Network-Segmentation-Engine",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-OTGWVPN",
+      "name": "OT-Security-Gateway-1-Remote-Access-VPN-Subsystem",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-OTGWProtoConv",
+      "name": "OT-Security-Gateway-1-Protocol-Translation-Services",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-OTGWSecurity",
+      "name": "OT-Security-Gateway-1-Platform-Security-and-Crypto",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-OTGWMgmt",
+      "name": "OT-Security-Gateway-1-Central-Management-Agent",
+      "role": "ProtocolStack"
+    }
+  ]
+}

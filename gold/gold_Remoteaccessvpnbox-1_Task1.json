@@ -1,0 +1,45 @@
+{
+  "device_type": "Industrial remote-access VPN box",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-RASMain",
+      "name": "Remote-Access-Box-VPN-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-RASOS",
+      "name": "Remote-Access-Box-VPN-1-Embedded-OS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-RASVPN",
+      "name": "Remote-Access-Box-VPN-1-VPN-Client-Server",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-RASCloudService",
+      "name": "Remote-Access-Box-VPN-1-Cloud-Access-Agent",
+      "role": "RoutingManagement"
+    },
+    {
+      "spdx_id": "SPDXRef-RASRouting",
+      "name": "Remote-Access-Box-VPN-1-Routing-and-Forwarding",
+      "role": "RoutingManagement"
+    },
+    {
+      "spdx_id": "SPDXRef-RASSecurity",
+      "name": "Remote-Access-Box-VPN-1-Security-Subsystem",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-RASMgmtUI",
+      "name": "Remote-Access-Box-VPN-1-Local-Configuration-Interface",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-RASLogging",
+      "name": "Remote-Access-Box-VPN-1-Logging-and-Audit",
+      "role": "LoggingMonitoring"
+    }
+  ]
+}

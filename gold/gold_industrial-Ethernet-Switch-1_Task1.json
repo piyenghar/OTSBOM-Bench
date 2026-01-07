@@ -1,0 +1,40 @@
+{
+  "device_type": "Industrial Ethernet switch",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-SWMain",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-SWOS",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-Switch-OS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-SWL2L3",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-L2L3-Services",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-SWICSProto",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-ICS-Protocol-Management",
+      "role": "Other"
+    },
+    {
+      "spdx_id": "SPDXRef-SWSecurity",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-Security-Features",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-SWMgmt",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-Management-Stack",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-SWLogging",
+      "name": "Industrial-Switch-L3-Managed-ICS-1-Logging-and-Events",
+      "role": "Other"
+    }
+  ]
+}

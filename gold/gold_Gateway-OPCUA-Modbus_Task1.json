@@ -1,0 +1,60 @@
+{
+  "device_type": "Industrial Protocol Gateway",
+  "components": [
+    {
+      "id": "SPDXRef-GatewayMain",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-GatewayRTOS",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-Embedded-RTOS",
+      "role": "OS"
+    },
+    {
+      "id": "SPDXRef-GatewayOPCUA",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-OPC-UA-Stack",
+      "role": "SecurityServices"
+    },
+    {
+      "id": "SPDXRef-GatewayModbus",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-Modbus-RTU-TCP-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-GatewayProfinet",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-PROFINET-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-GatewayMapping",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-Data-Mapping-Engine",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-GatewayMgmtUI",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-Management-Web-UI",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-GatewayRemoteMgmt",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-Remote-Management-Agent",
+      "role": "UpdateBoot"
+    },
+    {
+      "id": "SPDXRef-GatewayNetStack",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-Network-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-GatewaySecurity",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-Security-Services",
+      "role": "UpdateBoot"
+    },
+    {
+      "id": "SPDXRef-GatewayLogging",
+      "name": "Gateway-OPCUA-Modbus-Profinet-1-Logging-and-Diagnostics",
+      "role": "LoggingMonitoring"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "device_type": "Industrial protocol converter gateway",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-ConvMain",
+      "name": "Protocol-Converter-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-ConvRTOS",
+      "name": "Protocol-Converter-1-Embedded-RTOS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-ConvModbus",
+      "name": "Protocol-Converter-1-Modbus-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-ConvProfinet",
+      "name": "Protocol-Converter-1-PROFINET-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-ConvEtherNetIP",
+      "name": "Protocol-Converter-1-EtherNetIP-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-ConvMapping",
+      "name": "Protocol-Converter-1-Data-Mapping-Engine",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-ConvNet",
+      "name": "Protocol-Converter-1-Network-Stack",
+      "role": "RoutingManagement"
+    },
+    {
+      "spdx_id": "SPDXRef-ConvMgmtUI",
+      "name": "Protocol-Converter-1-Management-Interface",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-ConvSecurity",
+      "name": "Protocol-Converter-1-Security-Services",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-ConvLogging",
+      "name": "Protocol-Converter-1-Logging-and-Diagnostics",
+      "role": "LoggingMonitoring"
+    }
+  ]
+}

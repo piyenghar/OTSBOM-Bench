@@ -1,0 +1,25 @@
+{
+  "device_type": "Wireless Remote I/O Module",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-WIOMain",
+      "name": "Wireless-Remote-IO-Island-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-WIOIOMgr",
+      "name": "Wireless-Remote-IO-Island-1-I-O-Manager",
+      "role": "IOManagement"
+    },
+    {
+      "spdx_id": "SPDXRef-WIORadio",
+      "name": "Wireless-Remote-IO-Island-1-Wireless-Communication-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-WIOProto",
+      "name": "Wireless-Remote-IO-Island-1-Protocol-Bridge",
+      "role": "ProtocolStack"
+    }
+  ]
+}

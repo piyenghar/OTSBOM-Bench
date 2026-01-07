@@ -1,0 +1,25 @@
+{
+  "device_type": "Intelligent Ethernet Sensor",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-ISMain",
+      "name": "Intelligent-Sensor-Ethernet-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-ISMeasure",
+      "name": "Intelligent-Sensor-Ethernet-1-Measurement-and-Compensation",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-ISIOlink",
+      "name": "Intelligent-Sensor-Ethernet-1-IO-Link-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-ISEthernet",
+      "name": "Intelligent-Sensor-Ethernet-1-Ethernet-Interface",
+      "role": "ProtocolStack"
+    }
+  ]
+}

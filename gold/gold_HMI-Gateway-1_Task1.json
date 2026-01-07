@@ -1,0 +1,50 @@
+{
+  "device_type": "HMI gateway",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-HMIGatewayMain",
+      "name": "HMI-Gateway-1-Main-System",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-HMIGatewayHMI",
+      "name": "HMI-Gateway-1-HMI-Runtime",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-HMIGatewayPLCComm",
+      "name": "HMI-Gateway-1-PLC-Communication-Stack",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-GatewayVPN",
+      "name": "HMI-Gateway-1-VPN-Client-Server",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-GatewayFirewall",
+      "name": "HMI-Gateway-1-Firewall-and-NAT-Module",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-GatewayRouting",
+      "name": "HMI-Gateway-1-Routing-and-Management-Services",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-GatewayWebUI",
+      "name": "HMI-Gateway-1-Gateway-Web-Management-UI",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-GatewayLogging",
+      "name": "HMI-Gateway-1-Logging-and-Monitoring-Module",
+      "role": "HMI"
+    },
+    {
+      "spdx_id": "SPDXRef-GatewaySecurity",
+      "name": "HMI-Gateway-1-Security-Services",
+      "role": "HMI"
+    }
+  ]
+}

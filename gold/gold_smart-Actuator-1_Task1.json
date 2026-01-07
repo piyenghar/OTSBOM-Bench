@@ -1,0 +1,25 @@
+{
+  "device_type": "Smart Actuator",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-SAMain",
+      "name": "Smart-Actuator-Networked-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-SAMotion",
+      "name": "Smart-Actuator-Networked-1-Motion-and-Position-Control",
+      "role": "ControlLogic"
+    },
+    {
+      "spdx_id": "SPDXRef-SANet",
+      "name": "Smart-Actuator-Networked-1-Industrial-Ethernet-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-SAWeb",
+      "name": "Smart-Actuator-Networked-1-Web-Server-and-Asset-Agent",
+      "role": "LoggingMonitoring"
+    }
+  ]
+}

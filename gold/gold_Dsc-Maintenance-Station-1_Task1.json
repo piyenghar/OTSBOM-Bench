@@ -1,0 +1,45 @@
+{
+  "device_type": "DCS Engineering/Maintenance Station",
+  "components": [
+    {
+      "id": "SPDXRef-DCSEngStationMain",
+      "name": "DCS-Eng-Station-1-Engineering-Environment",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-ControlConfigTool",
+      "name": "DCS-Eng-Station-1-Control-Configuration-Tool",
+      "role": "HMI"
+    },
+    {
+      "id": "SPDXRef-HMIEngineering",
+      "name": "DCS-Eng-Station-1-HMI-Engineering-Tool",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-IOConfig",
+      "name": "DCS-Eng-Station-1-IO-Configuration-Module",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-ChangeMgmt",
+      "name": "DCS-Eng-Station-1-Change-Management-and-Versioning",
+      "role": "EngineeringTools"
+    },
+    {
+      "id": "SPDXRef-OfflineSimulation",
+      "name": "DCS-Eng-Station-1-Offline-Simulation-Module",
+      "role": "EngineeringTools"
+    },
+    {
+      "id": "SPDXRef-DeviceMgmtClient",
+      "name": "DCS-Eng-Station-1-Device-Management-Client",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-DCSSecurityClient",
+      "name": "DCS-Eng-Station-1-Security-and-User-Management-Client",
+      "role": "SecurityServices"
+    }
+  ]
+}

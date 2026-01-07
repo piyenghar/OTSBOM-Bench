@@ -1,0 +1,60 @@
+{
+  "device_type": "SCADA Server / Gateway",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-ScadaServerMain",
+      "name": "SCADA-Server-1-Main-Gateway",
+      "role": "MainApplication"
+    },
+    {
+      "spdx_id": "SPDXRef-ServerRuntime",
+      "name": "SCADA-Server-1-Server-Runtime",
+      "role": "ApplicationRuntime"
+    },
+    {
+      "spdx_id": "SPDXRef-ServerWebUI",
+      "name": "SCADA-Server-1-Web-UI-Module",
+      "role": "EngineeringTools"
+    },
+    {
+      "spdx_id": "SPDXRef-OPCUAServer",
+      "name": "SCADA-Server-1-OPC-UA-Server",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-OPCUAClient",
+      "name": "SCADA-Server-1-OPC-UA-Client",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-PLCDrivers",
+      "name": "SCADA-Server-1-PLC-Driver-Pack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-Historian",
+      "name": "SCADA-Server-1-Historian-Module",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-Alarming",
+      "name": "SCADA-Server-1-Alarming-Module",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-Scripting",
+      "name": "SCADA-Server-1-Scripting-Engine",
+      "role": "ApplicationLogic"
+    },
+    {
+      "spdx_id": "SPDXRef-DBConnector",
+      "name": "SCADA-Server-1-Database-Connector",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-UserAuth",
+      "name": "SCADA-Server-1-UserAuth-and-Security",
+      "role": "SecurityServices"
+    }
+  ]
+}

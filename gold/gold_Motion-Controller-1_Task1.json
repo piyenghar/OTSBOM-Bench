@@ -1,0 +1,50 @@
+{
+  "device_type": "Multi-axis motion controller",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-MotionMaster",
+      "name": "Motion-Controller-1-Master-Node-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-MotionMasterRTOS",
+      "name": "Motion-Controller-1-Master-RTOS-and-Scheduler",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-MotionPositionSpeed",
+      "name": "Motion-Controller-1-Position-and-Speed-Control-Library",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-MotionFSIStack",
+      "name": "Motion-Controller-1-FSI-Communication-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-MotionEtherCAT",
+      "name": "Motion-Controller-1-EtherCAT-Interface",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-MotionFOCTools",
+      "name": "Motion-Controller-1-Motor-Control-Utilities",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-MotionDiag",
+      "name": "Motion-Controller-1-Diagnostics-and-Logging",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-MotionSecurity",
+      "name": "Motion-Controller-1-Communication-and-Access-Security",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-MotionAxisSlaveLib",
+      "name": "Motion-Controller-1-Axis-Slave-Control-Library",
+      "role": "MeasurementAnalytics"
+    }
+  ]
+}

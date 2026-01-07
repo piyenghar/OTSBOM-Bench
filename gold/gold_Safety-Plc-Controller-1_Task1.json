@@ -1,0 +1,38 @@
+{
+  "device_type": "Safety PLC Controller",
+
+  "components": [
+    {
+      "id": "SPDXRef-SCMain",
+      "name": "Safety-Controller-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-SCOS",
+      "name": "Safety-Controller-1-Embedded-RTOS",
+      "role": "OS"
+    },
+    {
+      "id": "SPDXRef-SCSafetyKernel",
+      "name": "Safety-Controller-1-Safety-Kernel-and-Diagnostics",
+      "role": "SafetyLogic"
+    },
+    {
+      "id": "SPDXRef-SCLogicEditor",
+      "name": "Safety-Controller-1-Engineering-and-Logic-Tools",
+      "role": "EngineeringTools"
+    },
+    {
+      "id": "SPDXRef-SCFieldbus",
+      "name": "Safety-Controller-1-Fieldbus-Interfaces",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-SCLogging",
+      "name": "Safety-Controller-1-Event-Logging-and-Commissioning",
+      "role": "LoggingMonitoring"
+    }
+  ],
+
+  "architecture_summary": "The device is a fail-safe programmable logic controller intended for safety-related control functions. The main firmware hosts a certified safety kernel responsible for redundant logic execution and diagnostics, running on an embedded real-time operating system. Fieldbus interfaces provide connectivity to standard and safety-rated industrial networks. Engineering and logic tools support configuration and deployment of safety functions, while integrated logging and commissioning components record safety events and configuration changes for validation and audit purposes."
+}

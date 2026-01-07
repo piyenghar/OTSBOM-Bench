@@ -1,0 +1,50 @@
+{
+  "device_type": "Industrial Router",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-RouterWiredMain",
+      "name": "Industrial-Router-Wired-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-RouterWiredOS",
+      "name": "Industrial-Router-Wired-1-Embedded-OS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-RouterWiredVPN",
+      "name": "Industrial-Router-Wired-1-VPN-Subsystem",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-RouterWiredM2M",
+      "name": "Industrial-Router-Wired-1-M2M-Protocols",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-RouterWiredRouting",
+      "name": "Industrial-Router-Wired-1-Routing-and-Firewall",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-RouterWiredRMS",
+      "name": "Industrial-Router-Wired-1-Remote-Management-Agent",
+      "role": "Management"
+    },
+    {
+      "spdx_id": "SPDXRef-RouterWiredWebUI",
+      "name": "Industrial-Router-Wired-1-Web-Configuration-Interface",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-RouterWiredSecurity",
+      "name": "Industrial-Router-Wired-1-Security-Services",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-RouterWiredLogging",
+      "name": "Industrial-Router-Wired-1-Logging-and-Monitoring",
+      "role": "SecurityServices"
+    }
+  ]
+}

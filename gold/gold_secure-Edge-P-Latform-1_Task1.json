@@ -1,0 +1,40 @@
+{
+  "device_type": "Secure Edge Platform",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-SEMain",
+      "name": "Secure-Edge-Platform-OT-IT-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-SEOS",
+      "name": "Secure-Edge-Platform-OT-IT-1-Host-OS",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-SEContainer",
+      "name": "Secure-Edge-Platform-OT-IT-1-Container-Runtime",
+      "role": "ApplicationRuntime"
+    },
+    {
+      "spdx_id": "SPDXRef-SEFirewall",
+      "name": "Secure-Edge-Platform-OT-IT-1-Firewall-and-Segmentation",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-SEProtoConv",
+      "name": "Secure-Edge-Platform-OT-IT-1-Protocol-Conversion-Services",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-SECrypto",
+      "name": "Secure-Edge-Platform-OT-IT-1-Crypto-and-Trust-Anchor",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-SEMgmt",
+      "name": "Secure-Edge-Platform-OT-IT-1-Central-Management-Client",
+      "role": "SecurityServices"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "device_type": "Industrial DPI firewall",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-ICSMMain",
+      "name": "ICS-Firewall-DPI-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-ICSMOS",
+      "name": "ICS-Firewall-DPI-1-OS-and-Virtualization",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-ICSMDPI",
+      "name": "ICS-Firewall-DPI-1-DPI-Engine",
+      "role": "DPIEngine"
+    },
+    {
+      "spdx_id": "SPDXRef-ICSMIPS",
+      "name": "ICS-Firewall-DPI-1-IPS-IDS-Module",
+      "role": "IntrusionDetection"
+    },
+    {
+      "spdx_id": "SPDXRef-ICSMPolicy",
+      "name": "ICS-Firewall-DPI-1-Security-Policy-and-Assets",
+      "role": "Firewall"
+    },
+    {
+      "spdx_id": "SPDXRef-ICSMMgmt",
+      "name": "ICS-Firewall-DPI-1-Management-and-Orchestration",
+      "role": "RoutingManagement"
+    },
+    {
+      "spdx_id": "SPDXRef-ICSMSecurity",
+      "name": "ICS-Firewall-DPI-1-Platform-Security-Services",
+      "role": "SecurityServices"
+    }
+  ]
+}

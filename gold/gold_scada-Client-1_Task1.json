@@ -1,0 +1,45 @@
+{
+  "device_type": "SCADA Client / Operator Station",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-ScadaClientMain",
+      "name": "SCADA-Client-1-Operator-Runtime",
+      "role": "MainApplication"
+    },
+    {
+      "spdx_id": "SPDXRef-HMIViewer",
+      "name": "SCADA-Client-1-HMI-Visualization-Component",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-ClientWebRuntime",
+      "name": "SCADA-Client-1-Web-Client-Runtime",
+      "role": "ApplicationRuntime"
+    },
+    {
+      "spdx_id": "SPDXRef-ClientOPCUA",
+      "name": "SCADA-Client-1-OPC-UA-Client",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-ClientScripting",
+      "name": "SCADA-Client-1-UI-Scripting-Engine",
+      "role": "ApplicationLogic"
+    },
+    {
+      "spdx_id": "SPDXRef-ClientAlarmView",
+      "name": "SCADA-Client-1-Alarm-View-Module",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-ClientTrendView",
+      "name": "SCADA-Client-1-Trend-and-History-Viewer",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-ClientSecurity",
+      "name": "SCADA-Client-1-Client-Security-Module",
+      "role": "SecurityServices"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "device_type": "Industrial Cellular Router",
+  "components": [
+    {
+      "id": "SPDXRef-RouterCellMain",
+      "name": "Industrial-Router-Cellular-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-RouterCellOS",
+      "name": "Industrial-Router-Cellular-1-Embedded-Linux",
+      "role": "OS"
+    },
+    {
+      "id": "SPDXRef-RouterCellVPN",
+      "name": "Industrial-Router-Cellular-1-VPN-Subsystem",
+      "role": "SecurityServices"
+    },
+    {
+      "id": "SPDXRef-RouterCellWAN",
+      "name": "Industrial-Router-Cellular-1-Cellular-and-WAN-Manager",
+      "role": "Unknown"
+    },
+    {
+      "id": "SPDXRef-RouterCellPLCProto",
+      "name": "Industrial-Router-Cellular-1-Industrial-Protocol-Stacks",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-RouterCellCloud",
+      "name": "Industrial-Router-Cellular-1-Cloud-Connectors",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-RouterCellRouting",
+      "name": "Industrial-Router-Cellular-1-Routing-Firewall-QoS",
+      "role": "OS"
+    },
+    {
+      "id": "SPDXRef-RouterCellMgmt",
+      "name": "Industrial-Router-Cellular-1-Management-and-FOTA",
+      "role": "UpdateBoot"
+    },
+    {
+      "id": "SPDXRef-RouterCellSecurity",
+      "name": "Industrial-Router-Cellular-1-Security-Subsystem",
+      "role": "SecurityServices"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "device_type": "HMI Panel",
+  "components": [
+    {
+      "id": "SPDXRef-HMIPanelFirmware",
+      "name": "HMI-Panel-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-HMI_RT",
+      "name": "HMI-Panel-1-Visualization-Runtime",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-HMICommStack",
+      "name": "HMI-Panel-1-PLC-Communication-Stack",
+      "role": "HMI"
+    },
+    {
+      "id": "SPDXRef-HMIWebServer",
+      "name": "HMI-Panel-1-Remote-Access-Web-Server",
+      "role": "HMI"
+    },
+    {
+      "id": "SPDXRef-HMIAlarm",
+      "name": "HMI-Panel-1-Alarm-Handling-Module",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-HMIRecipe",
+      "name": "HMI-Panel-1-Recipe-and-Data-Logging-Module",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-HMISecurity",
+      "name": "HMI-Panel-1-User-Management-and-Security",
+      "role": "SecurityServices"
+    },
+    {
+      "id": "SPDXRef-HMIBootloader",
+      "name": "HMI-Panel-1-Bootloader-and-Update-Component",
+      "role": "UpdateBoot"
+    }
+  ]
+}

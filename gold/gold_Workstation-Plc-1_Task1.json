@@ -1,0 +1,50 @@
+{
+  "device_type": "Engineering Workstation",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-EngWSMain",
+      "name": "Eng-WS-PLC-Drive-1-Engineering-Suite",
+      "role": "EngineeringTools"
+    },
+    {
+      "spdx_id": "SPDXRef-PLCConfig",
+      "name": "Eng-WS-PLC-Drive-1-PLC-Configuration-Module",
+      "role": "EngineeringTools"
+    },
+    {
+      "spdx_id": "SPDXRef-DriveConfig",
+      "name": "Eng-WS-PLC-Drive-1-Drive-Configuration-Module",
+      "role": "EngineeringTools"
+    },
+    {
+      "spdx_id": "SPDXRef-HMIConfig",
+      "name": "Eng-WS-PLC-Drive-1-HMI-Configuration-Module",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "spdx_id": "SPDXRef-OpennessAPI",
+      "name": "Eng-WS-PLC-Drive-1-Openness-API",
+      "role": "EngineeringTools"
+    },
+    {
+      "spdx_id": "SPDXRef-MultiuserServer",
+      "name": "Eng-WS-PLC-Drive-1-Multiuser-Server-Component",
+      "role": "EngineeringTools"
+    },
+    {
+      "spdx_id": "SPDXRef-TagDB",
+      "name": "Eng-WS-PLC-Drive-1-Project-and-Tag-Database",
+      "role": "EngineeringTools"
+    },
+    {
+      "spdx_id": "SPDXRef-SimulationRuntime",
+      "name": "Eng-WS-PLC-Drive-1-Simulation-Runtime",
+      "role": "ApplicationRuntime"
+    },
+    {
+      "spdx_id": "SPDXRef-EngSecurity",
+      "name": "Eng-WS-PLC-Drive-1-Engineering-Security-Module",
+      "role": "SecurityServices"
+    }
+  ]
+}

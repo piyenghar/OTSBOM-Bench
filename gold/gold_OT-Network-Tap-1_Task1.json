@@ -1,0 +1,30 @@
+{
+  "device_type": "OT network tap",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-TAPMain",
+      "name": "OT-Network-TAP-Aggregation-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-TAPOS",
+      "name": "OT-Network-TAP-Aggregation-1-Embedded-OS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-TAPCapture",
+      "name": "OT-Network-TAP-Aggregation-1-Capture-and-Mirroring-Engine",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-TAPAggregation",
+      "name": "OT-Network-TAP-Aggregation-1-Aggregation-and-Load-Balancing",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-TAPMgmt",
+      "name": "OT-Network-TAP-Aggregation-1-Management-and-Stats",
+      "role": "ProtocolStack"
+    }
+  ]
+}

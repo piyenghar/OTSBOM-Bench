@@ -1,0 +1,60 @@
+{
+  "device_type": "Remote Terminal Unit",
+  "components": [
+    {
+      "id": "SPDXRef-RTU1Firmware",
+      "name": "RTU-1-Main-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "id": "SPDXRef-RTOS",
+      "name": "RTU-1-Embedded-RTOS",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-IEC60870Stack",
+      "name": "RTU-1-IEC-60870-5-Telecontrol-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-DNP3Stack",
+      "name": "RTU-1-DNP3-Protocol-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-ModbusStack",
+      "name": "RTU-1-MODBUS-TCP-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-MQTTClient",
+      "name": "RTU-1-MQTT-Client",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-GSM4GLTEStack",
+      "name": "RTU-1-GSM-4G-LTE-Communication-Stack",
+      "role": "ProtocolStack"
+    },
+    {
+      "id": "SPDXRef-TimeSync",
+      "name": "RTU-1-Time-Synchronization-Module",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-DataLogger",
+      "name": "RTU-1-Data-Logger-and-Event-Recorder",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-IOManager",
+      "name": "RTU-1-IO-Manager",
+      "role": "LoggingMonitoring"
+    },
+    {
+      "id": "SPDXRef-Bootloader",
+      "name": "RTU-1-Bootloader-and-Firmware-Update",
+      "role": "UpdateBoot"
+    }
+  ]
+}

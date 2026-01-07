@@ -1,0 +1,50 @@
+{
+  "device_type": "Industrial DAQ unit",
+  "components": [
+    {
+      "spdx_id": "SPDXRef-DAQMain",
+      "name": "DAQ-Unit-Industrial-1-Firmware",
+      "role": "MainFirmware"
+    },
+    {
+      "spdx_id": "SPDXRef-DAQRTOS",
+      "name": "DAQ-Unit-Industrial-1-Real-Time-OS",
+      "role": "OS"
+    },
+    {
+      "spdx_id": "SPDXRef-DAQSignalCond",
+      "name": "DAQ-Unit-Industrial-1-Signal-Conditioning-Stack",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-DAQEtherCAT",
+      "name": "DAQ-Unit-Industrial-1-EtherCAT-Interface",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-DAQDataEngine",
+      "name": "DAQ-Unit-Industrial-1-Data-Streaming-and-Buffering",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-DAQEmbeddedRT",
+      "name": "DAQ-Unit-Industrial-1-Embedded-RT-Application",
+      "role": "MeasurementAnalytics"
+    },
+    {
+      "spdx_id": "SPDXRef-DAQHostSW",
+      "name": "DAQ-Unit-Industrial-1-Host-Software-Agent",
+      "role": "ProtocolStack"
+    },
+    {
+      "spdx_id": "SPDXRef-DAQSecurity",
+      "name": "DAQ-Unit-Industrial-1-Security-and-Access-Control",
+      "role": "SecurityServices"
+    },
+    {
+      "spdx_id": "SPDXRef-DAQLogging",
+      "name": "DAQ-Unit-Industrial-1-Health-and-Event-Logging",
+      "role": "LoggingMonitoring"
+    }
+  ]
+}
