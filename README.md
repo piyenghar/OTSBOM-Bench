@@ -11,12 +11,13 @@ The dataset is intended to support **semantic interpretation and architectural p
 This repository contains the following artifacts:
 
 OTSBOM-Bench/
+```
 ├── sboms/ # 38 SPDX SBOMs (one per OT device)
 ├── gold/ # 38 gold-label files (one per SBOM)
 ├── allowed_roles_by_device_type.json
 ├── devicelist_withoutLinks.json
 └── README.md
-
+```
 ### `sboms/`
 - Contains **38 SPDX 2.3 SBOM files** in JSON format  
 - Each SBOM represents **one OT device instance**
