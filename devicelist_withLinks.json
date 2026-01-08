@@ -1,0 +1,298 @@
+{
+  "ot_device_archetypes": [
+    {
+      "category": "Core control and supervision",
+      "examples": [
+        {
+          "name": "PLC (programmable logic controller)",
+          "links": [
+            "https://support.industry.siemens.com/cs/document/109815160/application-example-sinumerik-plc-basic-program-plus?lc=en-sz",
+            "https://www.designworldonline.com/programming-plcs-a-technical-summary-with-siemens-examples/"
+          ]
+        },
+        {
+          "name": "PAC (programmable automation controller)",
+          "links": [
+            "https://www.designworldonline.com/programming-plcs-a-technical-summary-with-siemens-examples/"
+          ]
+        },
+        {
+          "name": "Safety PLC",
+          "links": [
+            "https://www.teletrust.de/fileadmin/user_upload/2025-TeleTrusT-IEC_62443-4-2_Use_Case_Industrial_Firewall.pdf"
+          ]
+        },
+        {
+          "name": "RTU (remote terminal unit)",
+          "links": [
+            "https://www.industrialdefender.com/blog/ot-cybersecurity-the-ultimate-guide"
+          ]
+        },
+        {
+          "name": "SCADA server",
+          "links": [
+            "https://www.fortinet.com/solutions/industries/scada-industrial-control-systems/what-is-ot-security"
+          ]
+        },
+        {
+          "name": "SCADA client / operator station",
+          "links": [
+            "https://support.industry.siemens.com/cs/attachments/109813308/WinCC_VisualizingProcessesUnified_enUS_en-US.pdf"
+          ]
+        },
+        {
+          "name": "DCS controller node",
+          "links": [
+            "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf"
+          ]
+        },
+        {
+          "name": "DCS engineering / maintenance station",
+          "links": [
+            "https://support.industry.siemens.com/cs/attachments/109813308/WinCC_VisualizingProcessesUnified_enUS_en-US.pdf"
+          ]
+        },
+        {
+          "name": "Engineering workstation for PLC/drive configuration",
+          "links": [
+            "https://docs.tia.siemens.cloud/r/en-us/v20/tia-portal-openness-api-for-automation-of-engineering-workflows/tia-portal-openness-api-for-automation-of-engineering-workflows"
+          ]
+        },
+        {
+          "name": "HMI panel (compact touch HMI)",
+          "links": [
+            "https://support.industry.siemens.com/cs/attachments/109813308/WinCC_VisualizingProcessesUnified_enUS_en-US.pdf"
+          ]
+        },
+        {
+          "name": "Panel-PC HMI (PC-class HMI)",
+          "links": [
+            "https://support.industry.siemens.com/cs/attachments/109813308/WinCC_VisualizingProcessesUnified_enUS_en-US.pdf"
+          ]
+        },
+        {
+          "name": "Combined HMI + gateway panel",
+          "links": [
+            "https://www.helmholz.de/en/solutions/network-security/machine-security-and-ot-security-in-accordance-with-iec-62443/"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Field, edge, and connectivity devices",
+      "examples": [
+        {
+          "name": "Multi-axis servo drive",
+          "links": [
+            "https://www.sigmatek-automation.com/en/products/motion/drives/dias-drive-2000/",
+            "https://www.sew-eurodrive.de/en_us/technical_pages/forwarding/driveconfigurator_1/application_inverter/moviaxis_multi_axis_servo_inverter/moviaxis_multi_axis_servo_inverter.html"
+          ]
+        },
+        {
+          "name": "Single-axis variable-speed drive (VSD/VFD) with Ethernet/fieldbus",
+          "links": [
+            "https://www.drivesweb.com/servo-system-with-high-power-density"
+          ]
+        },
+        {
+          "name": "Motion controller (robot or multi-axis motion controller)",
+          "links": [
+            "https://www.ti.com/lit/ug/tiduev1/tiduev1.pdf"
+          ]
+        },
+        {
+          "name": "Safety drive (drive with integrated safety functions)",
+          "links": [
+            "https://www.sew-eurodrive.de/en_us/technical_pages/forwarding/driveconfigurator_1/application_inverter/moviaxis_multi_axis_servo_inverter/moviaxis_multi_axis_servo_inverter.html"
+          ]
+        },
+        {
+          "name": "OPC UA / Modbus / Profinet gateway",
+          "links": [
+            "https://support.industry.siemens.com/cs/attachments/109801222/109801222_CN4100_V4_0_DOC_V2_2_en.pdf",
+            "https://www.rtautomation.com/rtas-blog/the-odd-couple-opc-ua-and-modbus/"
+          ]
+        },
+        {
+          "name": "PLC–cloud edge gateway (IIoT edge box)",
+          "links": [
+            "https://www.secunet.com/en/solutions/secunet-edge"
+          ]
+        },
+        {
+          "name": "Industrial protocol converter (e.g., Modbus–Profinet, Modbus–EtherNet/IP)",
+          "links": [
+            "https://www.rtautomation.com/rtas-blog/the-odd-couple-opc-ua-and-modbus/"
+          ]
+        },
+        {
+          "name": "Industrial router (wired)",
+          "links": [
+            "https://www.helmholz.de/en/solutions/network-security/machine-security-and-ot-security-in-accordance-with-iec-62443/"
+          ]
+        },
+        {
+          "name": "Industrial 4G/5G router / cellular modem",
+          "links": [
+            "https://www.flexem.com/iot/what-is-iot"
+          ]
+        },
+        {
+          "name": "Remote access / maintenance box (VPN-based)",
+          "links": [
+            "https://helpdesk.mbconnectline.com/en/259249-Remote-access-to-my-devices-connected-to-the-router-PLC-HMI"
+          ]
+        },
+        {
+          "name": "Data acquisition (DAQ) unit for sensors/I/O",
+          "links": [
+            "https://industrialcyber.co/expert/security-considerations-for-field-devices-in-industrial-systems/"
+          ]
+        },
+        {
+          "name": "Condition-monitoring device",
+          "links": [
+            "https://www.drivesweb.com/servo-system-with-high-power-density"
+          ]
+        },
+        {
+          "name": "Environmental/utility monitoring gateway",
+          "links": [
+            "https://www.symestic.com/en-us/what-is/ot-devices"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "OT security and network infrastructure",
+      "examples": [
+        {
+          "name": "Industrial firewall (zone/cell boundary)",
+          "links": [
+            "https://www.teletrust.de/fileadmin/user_upload/2025-TeleTrusT-IEC_62443-4-2_Use_Case_Industrial_Firewall.pdf",
+            "https://www.helmholz.de/media/pdf/cb/82/2e/Secure-OT-with-Industrial-NAT-Gateway-and-firewall-WALLIE.pdf"
+          ]
+        },
+        {
+          "name": "Deep-packet-inspection ICS firewall",
+          "links": [
+            "https://www.fortinet.com/solutions/industries/scada-industrial-control-systems/what-is-ot-security",
+            "https://www.fortinet.com/content/dam/fortinet/assets/white-papers/wp-advanced-threat-protection-industrial-control-systems-ot.pdf"
+          ]
+        },
+        {
+          "name": "OT security gateway / segmentation appliance",
+          "links": [
+            "https://www.helmholz.de/media/pdf/cb/82/2e/Secure-OT-with-Industrial-NAT-Gateway-and-firewall-WALLIE.pdf"
+          ]
+        },
+        {
+          "name": "Unidirectional gateway / data diode",
+          "links": [
+            "https://iebmedia.com/technology/industrial-5g/securing-ot-networks-with-unidirectional-gateways-diodes/"
+          ]
+        },
+        {
+          "name": "Managed industrial Ethernet switch (L2/L3 with ICS features)",
+          "links": [
+            "https://www.industrialdefender.com/blog/ot-cybersecurity-the-ultimate-guide"
+          ]
+        },
+        {
+          "name": "Secure edge platform (legacy-to-IT/cloud bridge)",
+          "links": [
+            "https://www.secunet.com/en/solutions/secunet-edge"
+          ]
+        },
+        {
+          "name": "OT network TAP / aggregation device",
+          "links": [
+            "https://industrialcyber.co/expert/security-considerations-for-field-devices-in-industrial-systems/"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Safety, sensors, and smart field devices",
+      "examples": [
+        {
+          "name": "Safety controller (dedicated safety logic controller)",
+          "links": [
+            "https://www.helmholz.de/en/solutions/network-security/machine-security-and-ot-security-in-accordance-with-iec-62443/"
+          ]
+        },
+        {
+          "name": "Safety I/O module (e.g., PROFIsafe/FSoE)",
+          "links": [
+            "https://www.sigmatek-automation.com/fileadmin/user_upload/downloads/DIAS-Drive-2000-eng.pdf"
+          ]
+        },
+        {
+          "name": "Intelligent sensor (smart pressure/temperature/flow sensor with Ethernet)",
+          "links": [
+            "https://www.symestic.com/en-us/what-is/ot-devices"
+          ]
+        },
+        {
+          "name": "Wireless sensor node (battery-powered IIoT sensor)",
+          "links": [
+            "https://www.flexem.com/iot/what-is-iot"
+          ]
+        },
+        {
+          "name": "Smart actuator (valve/drive with embedded controller and network interface)",
+          "links": [
+            "https://industrialcyber.co/expert/security-considerations-for-field-devices-in-industrial-systems/"
+          ]
+        },
+        {
+          "name": "Wireless I/O module / remote I/O island",
+          "links": [
+            "https://www.symestic.com/en-us/what-is/ot-devices"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Compute platforms and software systems",
+      "examples": [
+        {
+          "name": "Industrial PC (IPC) running SCADA/HMI/edge analytics",
+          "links": [
+            "https://www.designworldonline.com/programming-plcs-a-technical-summary-with-siemens-examples/"
+          ]
+        },
+        {
+          "name": "Hypervisor-based edge server (consolidating OT VMs)",
+          "links": [
+            "https://www.industrialdefender.com/blog/ot-cybersecurity-the-ultimate-guide"
+          ]
+        },
+        {
+          "name": "Historian server",
+          "links": [
+            "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf"
+          ]
+        },
+        {
+          "name": "Manufacturing execution system (MES) server component",
+          "links": [
+            "https://www.weigold-2021-data-driven-production.pdf"
+          ]
+        },
+        {
+          "name": "Plant analytics / OEE monitoring server",
+          "links": [
+            "https://www.symestic.com/en-us/what-is/ot-devices"
+          ]
+        },
+        {
+          "name": "On-prem industrial data lake / broker appliance",
+          "links": [
+            "https://www.flexem.com/iot/what-is-iot"
+          ]
+        }
+      ]
+    }
+  ]
+}
